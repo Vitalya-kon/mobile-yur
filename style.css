@@ -128,7 +128,7 @@ body{
 }
 .nav__user-btn >.dropdown-menu{
     width: 110vw;
-    left: -18vw;
+    left: 0;
     margin-bottom: 25px !important;
     overflow: scroll;
     text-align: center;
