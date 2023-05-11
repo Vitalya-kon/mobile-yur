@@ -119,7 +119,7 @@ body{
 }
 .nav__list-btn >.dropdown-menu{
     width: 110vw;
-    left: -48vw;
+    left: 0;
     margin-bottom: 20px !important;
     max-height: 80vh;
     overflow: scroll;
