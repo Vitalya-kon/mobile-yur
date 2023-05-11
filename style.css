@@ -121,7 +121,7 @@ body{
     width: 100vw;
     left: 0;
     margin-bottom: 20px !important;
-    max-height: 80vh;
+    max-height: 60vh;
     overflow: scroll;
     overflow-x: hidden;
     text-align: center;
