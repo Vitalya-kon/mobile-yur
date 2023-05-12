@@ -148,11 +148,10 @@ body{
     overflow-x: hidden;
     text-align: center;
 }
-.nav__user-btn >.dropdown-menu{
-    
+.nav__user-btn >.dropdown-menu{   
     width: 100vw;
     left: 0;
-    margin-bottom: 25px !important;
+    margin-bottom: 5px !important;
     overflow: scroll;
     text-align: center;
     overflow-x: hidden;
@@ -160,7 +159,7 @@ body{
 .nav__logout-btn >.dropdown-menu{
     width: 100vw;
     left: 0;
-    margin-bottom: 25px !important;
+    margin-bottom: 5px !important;
     overflow: scroll;
     text-align: center;
     overflow-x: hidden;
@@ -182,6 +181,11 @@ body{
 }
 .profile-menu li{
     margin: 20px 0;
+    max-width:100% ; 
+}
+.profile-menu li a{
+    white-space: normal;
+    width: 80%;
 }
 .setting__profile{
     margin: 55px 0 !important;
