@@ -12,9 +12,16 @@ body{
 }
 .wrapper{
     position: relative;
-    width: 100%;
+    width: 100vw;
 }
 .header{
+    position: fixed;
+    display: flex;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 0 10px 0 0;
+    justify-content: space-between;
     height: 8%;
     background: #0078bc;
     background: -moz-linear-gradient(left,#0078bc 1%,#00beda 100%);
@@ -196,7 +203,7 @@ body{
     background: #f4f8f9;
     padding-bottom: 60px;
     min-height: 783px;
-    padding-top: 25px;
+    padding-top: 20%;
 }
 /* ===== end page-wrapper */
 /* dashboard */
