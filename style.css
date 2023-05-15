@@ -98,10 +98,10 @@ body{
     align-items: center;
     padding: 0 35px;
     border-radius: 10px;
-    background: #0078bc;
-    background: -moz-linear-gradient(left,#0078bc 1%,#00beda 100%);
+    background: #e7eff3;
+    /* background: -moz-linear-gradient(left,#0078bc 1%,#00beda 100%);
     background: -webkit-linear-gradient(left,#0078bc 1%,#00beda 100%);
-    background: linear-gradient(to right,#0078bc 1%,#00beda 100%);
+    background: linear-gradient(to right,#0078bc 1%,#00beda 100%); */
 }
 /* .nav__bottom ul li i{
     color: #0078bc;
@@ -109,20 +109,27 @@ body{
     border-radius: 50%;
     font-weight: 600;
 } */
+.nav__list-company button,
 .nav__list-btn button{
-    color: #0078bc;
+    color: #f6f7f8;
     background: #fdfeff;
     border-radius: 50%;
     font-weight: 600;
     padding: 12px;
+    background: -moz-linear-gradient(left,#0078bc 1%,#00beda 100%);
+    background: -webkit-linear-gradient(left,#0078bc 1%,#00beda 100%);
+    background: linear-gradient(to right,#0078bc 1%,#00beda 100%);
 }
 .nav__user-btn button, .nav__logout-btn button{
-    color: #0078bc;
+    color: #f6f7f8;
     background: #fdfeff;
     border-radius: 50%;
     font-weight: 600;
     padding: 9px;
     outline: none;
+    background: -moz-linear-gradient(left,#0078bc 1%,#00beda 100%);
+    background: -webkit-linear-gradient(left,#0078bc 1%,#00beda 100%);
+    background: linear-gradient(to right,#0078bc 1%,#00beda 100%);
 }
 .nav__list-icon{
     font-size: 30px; 
@@ -130,6 +137,7 @@ body{
 .nav__user-icon, .nav__logout-icon{
     font-size: 23px;
 }
+.nav__list-company >.dropdown-menu li,
 .nav__list-btn >.dropdown-menu li ,
 /* .nav__user-btn >.dropdown-menu li , */
 .nav__logout-btn >.dropdown-menu li {
@@ -140,6 +148,7 @@ body{
     max-width:100% ;  
     
 }
+.nav__list-company >.dropdown-menu li a, 
 .nav__list-btn >.dropdown-menu li a,
 /* .nav__user-btn >.dropdown-menu li a, */
 .nav__logout-btn >.dropdown-menu li a{   
@@ -149,13 +158,19 @@ body{
     display: inline-block;
     padding: 17px 0px;
     border-radius: 17px;
-    -webkit-box-shadow: 8px 7px 14px -2px rgba(195, 204, 211, 0.6);
-    -moz-box-shadow: 8px 7px 14px -2px rgba(195, 204, 211, 0.6);
-    box-shadow: 8px 7px 14px -2px rgba(195, 204, 211, 0.6);
+    background: #fafbfc;
+    -webkit-box-shadow: 4px 5px 11px 5px rgba(34, 60, 80, 0.26);
+    -moz-box-shadow: 4px 5px 11px 5px rgba(34, 60, 80, 0.26);
+    box-shadow: 4px 5px 11px 5px rgba(34, 60, 80, 0.26);
 }
 .dropdown{
     z-index: 1000 !important;
 }
+.dropdown-menu{
+    background:#e7eff3 !important;
+}
+
+.nav__list-company >.dropdown-menu,
 .nav__list-btn >.dropdown-menu{
     width: 100vw;
     left: 0;
@@ -203,6 +218,10 @@ body{
 .profile-menu li a{
     white-space: normal;
     width: 80%;
+    background: #fafbfc;
+    -webkit-box-shadow: 4px 5px 11px 5px rgba(34, 60, 80, 0.26);
+    -moz-box-shadow: 4px 5px 11px 5px rgba(34, 60, 80, 0.26);
+    box-shadow: 4px 5px 11px 5px rgba(34, 60, 80, 0.26);
 }
 .setting__profile{
     margin: 55px 0 !important;
