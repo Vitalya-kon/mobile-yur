@@ -298,6 +298,11 @@ body{
     color: #333B3F;
 }
 /* ==== end my Company */
+/* edit my company */
+#formIdCompanies label{
+    font-family: 'Open Sans', sans-serif;
+}
+/* ===== end edit my company */
 /* Integration */
 .sync__header{
     margin:3px !important;
@@ -306,7 +311,7 @@ body{
 }
 .sync__card{
     padding: 13px 0 !important;
-    background: #d3d3d5b8;
+    background: #d4e6eebb;
     margin:13px 3px 0 3px !important;
     border-radius: 10px;
     color: #3c4049;
