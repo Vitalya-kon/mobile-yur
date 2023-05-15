@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
 *{
     padding: 0;
     margin: 0;
@@ -9,6 +11,21 @@ ul,ol,dl{
 }
 body{
     font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+.col-xs-1,
+.col-xs-2,
+.col-xs-3,
+.col-xs-4,
+.col.xs-5,
+.col-xs-6,
+.col-xs-7,
+.col-xs-8,
+.col-xs-9,
+.col-xs-10,
+.col-xs-11,
+.col-xs-12{
+    position: static !important;
 }
 .wrapper{
     position: relative;
@@ -232,7 +249,7 @@ body{
 }
 .white-box{
     background: white;
-    padding: 5px;
+    padding: 5px 0;
     margin-bottom: 30px;
     border: 1px solid transparent;
     border-radius: 10px;
@@ -261,7 +278,64 @@ body{
     color: #333B3F;
 }
 /* ==== end my Company */
+/* Integration */
+.sync__header{
+    margin:3px !important;
+    font-size: 15px;
+    color: #7E8491;
+}
+.sync__card{
+    padding: 13px 0 !important;
+    background: #d3d3d5b8;
+    margin:13px 3px 0 3px !important;
+    border-radius: 10px;
+    color: #3c4049;
+}
 
+#sync_tbody{
+    padding: 5px 0;
+}
+.card__colapse{  
+    border-radius: 0 0 10px 10px;
+}
+.sync__head{
+    padding: 10px 0 0 0;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 10px;
+    color: #5b5f62;
+}
+.sync__info{
+    font-size: 16px;
+    overflow-wrap: break-word;
+    padding: 11px 0 0 0;
+}
+.sync__info_token{
+    color: #7E8491;
+}
+.sync__info_sync{
+    color: rgb(181, 68, 68);
+}
+.sync__info_btn{
+    padding: 5px 0 0 0;
+}
+.agreement-create strong{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+}
+.agreement-create label{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+.agreement-create  h1 {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: #5b5f62;
+}
+/* end inegration */
 
 /* footer */
 .lawity-footer{
