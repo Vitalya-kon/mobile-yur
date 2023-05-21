@@ -25,6 +25,13 @@
         $(this).find('.nav__list-icon').removeClass('bi-caret-up').addClass('bi-caret-down') :
         $(this).find('.nav__list-icon').removeClass('bi-caret-down').addClass('bi-caret-up') 
     })
+
+      // $( ".nav__list-btn" ).on( "click", function() {
+      //   $(this).find('.nav__list-icon').hasClass('bi-caret-up') ?
+      //   $(this).find('.nav__list-icon').switchClass( "bi-caret-up", "bi-caret-down", 2000 ):
+      //   $(this).find('.nav__list-icon').switchClass( "bi-caret-down", "bi-caret-up", 2000 );
+      // });
+
    
     getdata();
                 function validatesync(id) {

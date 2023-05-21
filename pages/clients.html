@@ -1,298 +1,1948 @@
 <html lang="en">
   <head>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="keywords" content="">
-    <meta name="author" content="ИП Васильева М.В. (ОГРНИП: 318502700081368)">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="ИП Васильева М.В. (ОГРНИП: 318502700081368)" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+    />
     <title></title>
     <!-- style.css -->
-    <link rel="stylesheet" href="../style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,600;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,600;1,300&display=swap"
+      rel="stylesheet"
+    />
     <!--  -->
-    <link rel="icon" type="image/png" sizes="16x16" href="../img/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="../img/favicon.ico" />
     <!-- ===== Plugin CSS ===== -->
-<!--     <script defer src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> -->
-    <link href="https://jurcrm.lawity.ru/toastr.css" rel="stylesheet"/>
+    <!--     <script defer src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> -->
+    <link href="https://jurcrm.lawity.ru/toastr.css" rel="stylesheet" />
     <script defer src="https://jurcrm.lawity.ru/toastr.js"></script>
-     <!-- ===== Bootstrap CSS ===== -->
-<!--     <link href="assets/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- ===== Bootstrap CSS ===== -->
+    <!--     <link href="assets/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
     <script defer src="assets/bootstrap/dist/js/bootstrap.min.js"></script> -->
-    
-   <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css"> 
-    <script defer src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
-     <!-- ===== Bootstrap icon CSS ===== -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css" integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e" crossorigin="anonymous">
-      <!--===== Plugin CSS ===== -->
+
+    <link
+      rel="stylesheet"
+      href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css"
+    />
+    <script
+      defer
+      src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"
+    ></script>
+    <!-- ===== Bootstrap icon CSS ===== -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+      integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e"
+      crossorigin="anonymous"
+    />
+    <!--===== Plugin CSS ===== -->
     <!-- <link href="https://crmccmt.ru/mystyle.css" rel="stylesheet"> -->
-      <!--===== Animation CSS ===== -->
+    <!--===== Animation CSS ===== -->
     <!-- <link href="/assets/css/animate.css" rel="stylesheet"> -->
-     <!-- ===== Custom CSS ===== -->
+    <!-- ===== Custom CSS ===== -->
     <!-- <link href="/assets/css/style.css" rel="stylesheet"> -->
-     <!-- ===== Color CSS ===== -->
+    <!-- ===== Color CSS ===== -->
     <!-- <link href="/assets/css/colors/default.css" id="theme" rel="stylesheet"> -->
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-    
+
     <!---->
-   <!-- <link-->
-   <!--   rel="stylesheet"-->
-   <!--   href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/0.5.10/css/ripples.min.css"-->
-   <!-- />-->
-   <!-- <link-->
-   <!--   rel="stylesheet"-->
-   <!--   href="/clients/plugins/bootstrap-material-datetimepicker/css/bootstrap-material-datetimepicker.css"-->
-   <!--/>-->
-   <!--Frontend Programmer-->
- <!--   <link rel="stylesheet" href="https://cc2.ccrhby.ru/bootstrap/dist/css/bootstrap.min.css">-->
-	<link rel="stylesheet" href="https://cc2.ccrhby.ru/plugins/components/bootstrap-datetimepicker-master/bootstrap-datetimepicker.min.css">
-	
-	<script defer src="https://cc2.ccrhby.ru/plugins/components/bootstrap-datetimepicker-master/bootstrap-datetimepicker.min.js"></script>
-	<script defer src="https://cc2.ccrhby.ru/plugins/components/bootstrap-datetimepicker-master/bootstrap-datetimepicker.ru.js"></script>
-   
-  <script defer src="../clients/plugins/datetimepicker.init.js/dateTimePicker.js"></script>
-</head>
-<body class="mini-sidebar">
- <!-- ===== preloader.user ===== -->
-  <div class="preloader" style="display: none;">
-          <div class="loader__conatainer">
-              <div id="loader"></div>
-              <div class="img__logo">
-                  <img src="https://lawity.ru/img/Lawity-logo.png" alt="ly">
-              </div>   
-          </div>        
-  </div>
-  <div id="wrapper" class="wrapper">
+    <!-- <link-->
+    <!--   rel="stylesheet"-->
+    <!--   href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/0.5.10/css/ripples.min.css"-->
+    <!-- />-->
+    <!-- <link-->
+    <!--   rel="stylesheet"-->
+    <!--   href="/clients/plugins/bootstrap-material-datetimepicker/css/bootstrap-material-datetimepicker.css"-->
+    <!--/>-->
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+
+    <!--Frontend Programmer-->
+    <!--   <link rel="stylesheet" href="https://cc2.ccrhby.ru/bootstrap/dist/css/bootstrap.min.css">-->
+    <link
+      rel="stylesheet"
+      href="https://cc2.ccrhby.ru/plugins/components/bootstrap-datetimepicker-master/bootstrap-datetimepicker.min.css"
+    />
+
+    <script
+      defer
+      src="https://cc2.ccrhby.ru/plugins/components/bootstrap-datetimepicker-master/bootstrap-datetimepicker.min.js"
+    ></script>
+    <script
+      defer
+      src="https://cc2.ccrhby.ru/plugins/components/bootstrap-datetimepicker-master/bootstrap-datetimepicker.ru.js"
+    ></script>
+
+    <script
+      defer
+      src="../clients/plugins/datetimepicker.init.js/dateTimePicker.js"
+    ></script>
+  </head>
+  <body class="mini-sidebar">
+    <!-- ===== preloader.user ===== -->
+    <div class="preloader" style="display: none">
+      <div class="loader__conatainer">
+        <div id="loader"></div>
+        <div class="img__logo">
+          <img src="https://lawity.ru/img/Lawity-logo.png" alt="ly" />
+        </div>
+      </div>
+    </div>
+    <div id="wrapper" class="wrapper">
       <!-- ===== bottom nav ======= -->
-    <nav class="nav__bottom nav">
-      <ul class="nav__bar">
-        <li class="nav__user">
-          <div class="dropup nav__user-btn">
-            <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              <i class="bi bi-person nav__user-icon"></i>
-            </button>
-            <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-              <li>
-                <div class="dropdown user-pro-body">
-                  <div class="profile-image">
-                      <img src="../img/ava_link/yur/Men.png" alt="user-img" class="img-circle">
+      <nav class="nav__bottom nav">
+        <ul class="nav__bar">
+          <li class="nav__user">
+            <div class="dropup nav__user-btn">
+              <button
+                class="btn btn-default dropdown-toggle"
+                type="button"
+                id="dropdownMenu1"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                <i class="bi bi-person nav__user-icon"></i>
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                <li>
+                  <div class="dropdown user-pro-body">
+                    <div class="profile-image">
+                      <img
+                        src="../img/ava_link/yur/Men.png"
+                        alt="user-img"
+                        class="img-circle"
+                      />
                       <div class="profile-text">
-                        <a style="color: #000;" href="#"> jurdemo  
-                        </a>
-                        <br>
-                        <a style="font-style: italic;color:#495057;font-size: 75%;" href="#">
-                           (Администратор)  
+                        <a style="color: #000" href="#"> jurdemo </a>
+                        <br />
+                        <a
+                          style="
+                            font-style: italic;
+                            color: #495057;
+                            font-size: 75%;
+                          "
+                          href="#"
+                        >
+                          (Администратор)
                         </a>
                       </div>
                       <ul class="profile-menu">
-                          <li>
-                            <a href="#">
-                              <i class="bi bi-person"></i>
-                              Профиль
-                            </a>
-                          </li>
-                          <li>
-                            <a href="#">
-                              <i class="bi bi-envelope-paper"></i>
-                              Месенджер
-                            </a>
-                          </li>
-                          <li class="setting__profile">
-                            <a href="#">
-                              <i class="bi bi-gear"></i>
-                              Настройки аккаунта
-                            </a>
-                          </li>
-                          <li>
-                            <a href="#">
-                              <i class="bi bi-power"></i>
-                              Выход
-                            </a>
-                          </li>
+                        <li>
+                          <a href="#">
+                            <i class="bi bi-person"></i>
+                            Профиль
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            <i class="bi bi-envelope-paper"></i>
+                            Месенджер
+                          </a>
+                        </li>
+                        <li class="setting__profile">
+                          <a href="#">
+                            <i class="bi bi-gear"></i>
+                            Настройки аккаунта
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            <i class="bi bi-power"></i>
+                            Выход
+                          </a>
+                        </li>
                       </ul>
+                    </div>
                   </div>
-                </div>
-              </li>
-            </ul>
-          </div>
-        </li>
-        <li class="nav__list">
-          <div class="dropup nav__list-btn">
-              <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="nav__list">
+            <div class="dropup nav__list-btn">
+              <button
+                class="btn btn-default dropdown-toggle"
+                type="button"
+                id="dropdownMenu2"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
                 <i class="bi bi-caret-up nav__list-icon" id="iconCompany"></i>
               </button>
-            <!-- выпадающий список -->
-            <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
-              <li>
-                <a href="my-company.html">
-                  <i class="bi bi-buildings"></i>
+              <!-- выпадающий список -->
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                <li>
+                  <a href="my-company.html">
+                    <i class="bi bi-buildings"></i>
                     Моя компания
-                </a>
-              </li>
-              <li>
-                <a href="record-sheet.html">
+                  </a>
+                </li>
+                <li>
+                  <a href="record-sheet.html">
                     <i class="bi bi-pencil"></i>
                     Лист записей
-                </a>
-              </li>
-              <li>
-                <a href="list-calendar.html">
+                  </a>
+                </li>
+                <li>
+                  <a href="list-calendar.html">
                     <i class="bi bi-calendar3"></i>
-                  Календарь записей
-                </a>
-              </li>
-              <li>
-                <a href="clients.html">
+                    Календарь записей
+                  </a>
+                </li>
+                <li>
+                  <a href="clients.html">
                     <i class="bi bi-people"></i>
-                  Клиенты
-                </a>
-              </li>
-              <li>
-                <a href="dogovora.html">
-                  <i class="bi bi-journal-check"></i>
-                  Договора
-                </a>
-              </li>
-              <li>
-                <a href="acts.html">
-                  <i class="bi bi-book"></i>
-                  Акты
-                </a>
-              </li>
-              <li>
-                <a href="integration.html">
-                  <i class="bi bi-share"></i>
-                  Интеграции
-                </a>
-              </li>
-            </ul>
-          </div>
-        </li>
-        <li class="nav__logout">
-          <div class="dropup nav__logout-btn">
-            <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              <i class="bi bi-box-arrow-right nav__logout-icon"></i>
-            </button>
-            <ul class="dropdown-menu" aria-labelledby="dropdownMenu3">
-              <li>                
-                <a href="#">
-                  <i class="bi bi-power"></i>
-                  Выход</a>
-              </li>
-            </ul>
-          </div>
-        </li>
-      </ul>  
-    </nav>
-    <!-- Header nav -->
-    <header class="header">
-      <!-- <div class="top-left-part col-xs-2">
+                    Клиенты
+                  </a>
+                </li>
+                <li>
+                  <a href="dogovora.html">
+                    <i class="bi bi-journal-check"></i>
+                    Договора
+                  </a>
+                </li>
+                <li>
+                  <a href="acts.html">
+                    <i class="bi bi-book"></i>
+                    Акты
+                  </a>
+                </li>
+                <li>
+                  <a href="integration.html">
+                    <i class="bi bi-share"></i>
+                    Интеграции
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="nav__logout">
+            <div class="dropup nav__logout-btn">
+              <button
+                class="btn btn-default dropdown-toggle"
+                type="button"
+                id="dropdownMenu3"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                <i class="bi bi-box-arrow-right nav__logout-icon"></i>
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenu3">
+                <li>
+                  <a href="#">
+                    <i class="bi bi-power"></i>
+                    Выход</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </nav>
+      <!-- Header nav -->
+      <header class="header">
+        <!-- <div class="top-left-part col-xs-2">
           <a class="logo" href="../index.html">
               <b>
                   <img class="img-circle" src="../img/borderava.png" style="height: 56px;" alt="home">
               </b>
           </a>
       </div> -->
-      <div class="arrow__back">
-        <a href="../index.html">
-          <svg width="45px" fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g clip-rule="evenodd" fill="rgb(0,0,0)" fill-rule="evenodd"><path d="m12 20.5c4.6944 0 8.5-3.8056 8.5-8.5 0-4.69442-3.8056-8.5-8.5-8.5-4.69442 0-8.5 3.80558-8.5 8.5 0 4.6944 3.80558 8.5 8.5 8.5zm0 1.5c5.5228 0 10-4.4772 10-10 0-5.52285-4.4772-10-10-10-5.52285 0-10 4.47715-10 10 0 5.5228 4.47715 10 10 10z" fill="rgb(0,0,0)" style="fill: rgb(255, 255, 255);"></path><path d="m13.7803 7.96967c-.2929-.29289-.7677-.29289-1.0606 0l-3.50003 3.50003c-.29289.2929-.29289.7677 0 1.0606l3.50003 3.5c.2929.2929.7677.2929 1.0606 0s.2929-.7677 0-1.0606l-2.9696-2.9697 2.9696-2.96967c.2929-.29289.2929-.76777 0-1.06066z" fill="rgb(0,0,0)" style="fill: rgb(255, 255, 255);"></path></g></svg>
-        </a>
+        <div class="arrow__back">
+          <a href="../index.html">
+            <svg
+              width="45px"
+              fill="none"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g clip-rule="evenodd" fill="rgb(0,0,0)" fill-rule="evenodd">
+                <path
+                  d="m12 20.5c4.6944 0 8.5-3.8056 8.5-8.5 0-4.69442-3.8056-8.5-8.5-8.5-4.69442 0-8.5 3.80558-8.5 8.5 0 4.6944 3.80558 8.5 8.5 8.5zm0 1.5c5.5228 0 10-4.4772 10-10 0-5.52285-4.4772-10-10-10-5.52285 0-10 4.47715-10 10 0 5.5228 4.47715 10 10 10z"
+                  fill="rgb(0,0,0)"
+                  style="fill: rgb(255, 255, 255)"
+                ></path>
+                <path
+                  d="m13.7803 7.96967c-.2929-.29289-.7677-.29289-1.0606 0l-3.50003 3.50003c-.29289.2929-.29289.7677 0 1.0606l3.50003 3.5c.2929.2929.7677.2929 1.0606 0s.2929-.7677 0-1.0606l-2.9696-2.9697 2.9696-2.96967c.2929-.29289.2929-.76777 0-1.06066z"
+                  fill="rgb(0,0,0)"
+                  style="fill: rgb(255, 255, 255)"
+                ></path>
+              </g>
+            </svg>
+          </a>
+        </div>
+        <!--  Часы  -->
+        <div class="clock">
+          <div id="panelData" class="panel__data"></div>
+          <div id="panelClock" class="panel__clock"></div>
+        </div>
+      </header>
+      <!-- Content index.html -->
+      <div class="page-wrapper">
+        <div class="container">
+          <!-- =====  RightSidebar.user ===== -->
+          <!-- =====   ===== -->
+
+          <!--=====  administrator.content.customers ===== -->
+          <div class="title_content">
+            <h1 class="heading"><span>К</span>лиенты</h1>
+            <div class="btn-group">
+              <i
+                data-toggle="dropdown"
+                class="info_developers text-primary fa fa-info dropdown-toggle"
+              ></i>
+              <!-- Выпадающее меню -->
+              <ul class="dropdown-menu dropdown-left-manual">
+                <!-- Пункты меню -->
+                <li><div class="info_technical_department"></div></li>
+                <li>
+                  <b>Автор:</b>
+                  <div class="info_technical_department_author"></div>
+                </li>
+                <li>
+                  <b>Разработчики:</b>
+                  <div class="info_developers_data"></div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <section id="section_breadcrumb" class="content-header">
+            <nav aria-label="breadcrumb">
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item">
+                  <a href="#" class="text-decoration-none link-primary"
+                    >Lawity</a
+                  >
+                </li>
+                <li class="breadcrumb-item active" aria-current="page">
+                  Клиенты
+                </li>
+              </ol>
+            </nav>
+          </section>
+          <div class="row">
+            <div class="col-xs-12" style="position: static;">
+              <div class="white-box fi col-xs-12">
+              <section class="filter">
+                <div class="row col-md-12">
+                  <input
+                    type="text"
+                    class="bg-light input_date input_search_name col-xs-12"
+                    placeholder="ФИО"
+                  />
+                </div>
+                <div class="row col-md-12">
+                  <input
+                    type="text"
+                    class="phone-validation bg-light input_date input_search_phone col-xs-12"
+                    placeholder="Телефон"
+                  />
+                </div>
+                <div class="calen row col-md-12">
+                  <input
+                    type="text"
+                    id="dateTimePicker1"
+                    class="bg-light input_date date-fr col-xs-12"
+                    placeholder="Дата и время"
+                  />
+                  <label for="dateTimePicker1" style="display: contents">
+                    <i class="fa fa-calendar"></i>
+                  </label>
+                </div>
+                <div class="filter__choise_date row col-md-12">
+                  <button class=" input_date_today col-xs-4">Вчера</button>
+                  <button class=" input_date_yesterday col-xs-4 col-xs-offset-4">Сегодня</button>
+                </div>
+                <div>
+                  <button
+                    class="btn btn-block btn-md btn-success data_search btn__filter_search"
+                    type="button"
+                  >
+                  <i class="bi bi-search"></i>
+                    Поиск
+                  </button>
+                </div>
+                <div>
+                  <button
+                    class="btn btn-block btn-md btn-primary btn__filter_collapse"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#accardion"
+                  >
+                  <i class="bi bi-funnel"></i>
+                    Больше фильтров
+                  </button>
+                </div>
+              </section>
+              <section class="collapse" id="accardion">
+                <div class="filter_content">
+                  <div class="row">
+                    <div class="col-md-12 form-group consultant_data_add">
+                      <select class="filter__select_id" style="width: 100%;">
+                        <option
+                          class="option_id"
+                          value=""
+                        >
+                        </option>                      
+                      </select>
+                    </div>
+                    <div class="col-md-12 form-group consultant_data_add">
+                      <select class="filter__select_consultant" style="width: 100%;">
+                        <option
+                          class="option_consultant"
+                          value=""
+                        >
+                        </option>
+                        <option
+                          class="option_consultant"
+                          value="589364730"
+                        >
+                          589364730
+                        </option>
+                        <option
+                          class="option_consultant"
+                          value="Ванга ИП"
+                        >
+                          Ванга ИП
+                        </option>                       
+                      </select>
+                    </div>
+                    <div class="col-md-12 form-group sorce_data_add">
+                      <select class="filter__select_source" style="width: 100%;">
+                        <option
+                          class="option_source"
+                          value=""
+                        >
+                        </option>                  
+                      </select>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-xs-12 form-group group_status">
+                      <div class="row">
+                        <div class="col-xs-12 btn__filter_status">
+                          <button
+                            class="btn hascome_status btn-block data-input_status"
+                          >
+                            Пришёл
+                          </button>
+                        </div>
+                        <div class="col-xs-12 btn__filter_status">
+                          <button
+                            class="btn forconsultation_status btn-block data-input_status"
+                          >
+                            На консультации
+                          </button>
+                        </div>
+                        <div class="col-xs-12 btn__filter_status">
+                          <button
+                            class="btn calling_status btn-block data-input_status"
+                          >
+                            Созвон
+                          </button>
+                        </div>
+                        <div class="col-xs-12 btn__filter_status">
+                          <button
+                            class="btn contract_status btn-block data-input_status"
+                          >
+                            Договор
+                          </button>
+                        </div>
+                        <div class="col-xs-12 btn__filter_status">
+                          <button
+                            class="btn meeting_status btn-block data-input_status"
+                          >
+                            Встреча
+                          </button>
+                        </div>
+                        <div class="col-xs-12 btn__filter_status">
+                          <button
+                            class="btn rejection_status btn-block data-input_status"
+                          >
+                            Отказ
+                          </button>
+                        </div>
+                        <div class="col-xs-12 btn__filter_status">
+                          <button
+                            class="btn marriage_status btn-block data-input_status"
+                          >
+                            Брак
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+              </div>
+            </div>
+          </div>
+    
+          <section class="working-area mt-4">
+            
+            
+            <ttotal id="idtotal">
+              <div class="pagination">
+                Всего страниц: <b style="color: #333b3f"> 5</b>
+                <b style="color: #0283cc">/</b> Показано:
+                <b style="color: #333b3f"> 10 </b> из
+                <b style="color: #333b3f">42</b>
+              </div></ttotal
+            >
+            <div class="add__client" style="margin-bottom: 15px;">
+              <button
+                  class="btn btn-block btn-md btn-primary add_customer_data"
+                  type="button"
+                  data-toggle="modal"
+                  data-target="#clientAdd"
+                >
+                  <i class="fa fa-plus-square"></i>
+                  Добавить клиента
+              </button>
+            </div>
+            <div class="white-box bg-white p-3">
+              <div class="col-12 overflo-y-scroll">
+                <table id="general-table" class="table table-striped">
+                  <thead>
+                    <tr>
+                      <th><strong>ID/Источник</strong></th>
+                      <!--<th><strong>Источник</strong></th>-->
+                      <th><strong>ФИО/Статус</strong></th>
+                      <th><strong>Телефон</strong></th>
+                      <th>
+                        <strong
+                          >Дата посещения/<br />изменения/назначения</strong
+                        >
+                      </th>
+                      <th><strong>Консультант</strong></th>
+                      <th><strong>Приходы/Договора</strong></th>
+                      <th></th>
+                    </tr>
+                  </thead>
+                  <tbody class="customer_table">
+                    <tr
+                      data-id="327"
+                      class="customer_information tr_color_forconsultation"
+                    >
+                      <td data-id="get_update_data_source">
+                        <i class="fa fa-slack" style="color: #00bad8"></i> 327
+                        <div class="d-flex align-centr">
+                          <i class="fa fa-sign-in" style="color: #d3cb75"></i>
+                          <div class="update_data_table">Нет источника</div>
+                        </div>
+                      </td>
+                      <td data-id="get_update_data_name_customers">
+                        <div class="d-flex align-centr">
+                          <i class="text-primary fa fa-user"></i>
+                          <div class="update_data_table" style="color: #333b3f">
+                            Вова
+                          </div>
+                        </div>
+
+                        <div id="327" class="select5">
+                          <input
+                            type="hidden"
+                            name="item"
+                            value=""
+                            class="input_status_add"
+                          />
+                          <div class="btn selected5 forconsultation_status">
+                            На консультации
+                          </div>
+                          <div class="option-list status_castom"></div>
+                        </div>
+                      </td>
+                      <td
+                        data-id="get_update_data_phone"
+                        data-id_2="get_update_data_phone_reserve"
+                      >
+                        <div>
+                          <i
+                            class="fa fa-phone-square"
+                            style="color: #a0877e"
+                          ></i
+                          ><span
+                            class="update_data_table"
+                            style="color: #333b3f"
+                            >+7 (333) 333 3333</span
+                          >
+                        </div>
+                        <div style="display: inline-block">
+                          <i
+                            class="fa fa-phone-square"
+                            style="color: #a0877e"
+                          ></i
+                          ><span
+                            class="update_data_table"
+                            style="color: #333b3f"
+                            >+7 (555) 555 5555</span
+                          >
+                        </div>
+                      </td>
+                      <td>
+                        <i class="fa fa-clock-o" style="color: #53707f"></i>
+                        01.01.1970 03:00
+                        <div>
+                          <i class="fa fa-clock-o" style="color: #53707f"></i
+                          >19.05.2023 12:11
+                        </div>
+                        <div style="color: #79c1ce">
+                          <i class="fa fa-clock-o"></i>19.05.2023 12:11
+                        </div>
+                      </td>
+                      <td>
+                        <i class="fa fa-male" style="color: #9465cf"></i>
+                        <span
+                          class="group_consultant"
+                          style="display: inline-block"
+                          >Иванов Иван Иванович<br />
+                          Вася<br />
+                          Владлен
+                        </span>
+                      </td>
+                      <td>
+                        <i
+                          class="fa fa-share-square"
+                          style="color: #4a924d"
+                        ></i>
+                        0
+                        <p>
+                          <i
+                            class="icon-note"
+                            style="
+                              font-size: 15px;
+                              font-weight: bold;
+                              color: #4a924d;
+                            "
+                          ></i>
+                          0
+                        </p>
+                      </td>
+                      <td>
+                        <i
+                          data-toggle="modal"
+                          data-target="#dogovoraModal"
+                          class="show-more bi bi-eye"
+                        ></i>
+                        
+                      </td>
+                    </tr>
+                    <tr
+                      data-id="326"
+                      class="customer_information tr_color_hascome"
+                    >
+                      <td data-id="get_update_data_source">
+                        <i class="fa fa-slack" style="color: #00bad8"></i> 326
+                        <div class="d-flex align-centr">
+                          <i class="fa fa-sign-in" style="color: #d3cb75"></i>
+                          <div class="update_data_table">Нет источника</div>
+                        </div>
+                      </td>
+                      <td data-id="get_update_data_name_customers">
+                        <div class="d-flex align-centr">
+                          <i class="text-primary fa fa-user"></i>
+                          <div class="update_data_table" style="color: #333b3f">
+                            Вакуленко
+                          </div>
+                        </div>
+
+                        <div id="326" class="select5">
+                          <input
+                            type="hidden"
+                            name="item"
+                            value=""
+                            class="input_status_add"
+                          />
+                          <div class="btn selected5 hascome_status">Пришёл</div>
+                          <div class="option-list status_castom"></div>
+                        </div>
+                      </td>
+                      <td
+                        data-id="get_update_data_phone"
+                        data-id_2="get_update_data_phone_reserve"
+                      >
+                        <div>
+                          <i
+                            class="fa fa-phone-square"
+                            style="color: #a0877e"
+                          ></i
+                          ><span
+                            class="update_data_table"
+                            style="color: #333b3f"
+                            >524122521442252</span
+                          >
+                        </div>
+                        <div style="display: none">
+                          <i
+                            class="fa fa-phone-square"
+                            style="color: #a0877e"
+                          ></i
+                          ><span
+                            class="update_data_table"
+                            style="color: #333b3f"
+                          ></span>
+                        </div>
+                      </td>
+                      <td>
+                        <i class="fa fa-clock-o" style="color: #53707f"></i>
+                        01.01.1970 03:00
+                        <div>
+                          <i class="fa fa-clock-o" style="color: #53707f"></i
+                          >16.05.2023 23:03
+                        </div>
+                      </td>
+                      <td>
+                        <i class="fa fa-male" style="color: #ff6565"></i>
+                        <span class="group_consultant" style="display: none"
+                          >Иванов Иван Иванович<br />
+                          Вася<br />
+                          Владлен
+                        </span>
+                      </td>
+                      <td>
+                        <i
+                          class="fa fa-share-square"
+                          style="color: #4a924d"
+                        ></i>
+                        0
+                        <p>
+                          <i
+                            class="icon-note"
+                            style="
+                              font-size: 15px;
+                              font-weight: bold;
+                              color: #4a924d;
+                            "
+                          ></i>
+                          0
+                        </p>
+                      </td>
+                      <td>
+                        <i
+                          data-toggle="modal"
+                          data-target="#dogovoraModal"
+                          class="show-more fa fa-eye"
+                        ></i>
+                      </td>
+                    </tr>
+                    <tr
+                      data-id="325"
+                      class="customer_information tr_color_rejection"
+                    >
+                      <td data-id="get_update_data_source">
+                        <i class="fa fa-slack" style="color: #00bad8"></i> 325
+                        <div class="d-flex align-centr">
+                          <i class="fa fa-sign-in" style="color: #d3cb75"></i>
+                          <div class="update_data_table">Ванга ИП</div>
+                        </div>
+                      </td>
+                      <td data-id="get_update_data_name_customers">
+                        <div class="d-flex align-centr">
+                          <i class="text-primary fa fa-user"></i>
+                          <div class="update_data_table" style="color: #333b3f">
+                            Сас75
+                          </div>
+                        </div>
+
+                        <div id="325" class="select5">
+                          <input
+                            type="hidden"
+                            name="item"
+                            value=""
+                            class="input_status_add"
+                          />
+                          <div class="btn selected5 rejection_status">
+                            Отказ
+                          </div>
+                          <div class="option-list status_castom"></div>
+                        </div>
+                      </td>
+                      <td
+                        data-id="get_update_data_phone"
+                        data-id_2="get_update_data_phone_reserve"
+                      >
+                        <div>
+                          <i
+                            class="fa fa-phone-square"
+                            style="color: #a0877e"
+                          ></i
+                          ><span
+                            class="update_data_table"
+                            style="color: #333b3f"
+                            >89067825521</span
+                          >
+                        </div>
+                        <div style="display: inline-block">
+                          <i
+                            class="fa fa-phone-square"
+                            style="color: #a0877e"
+                          ></i
+                          ><span
+                            class="update_data_table"
+                            style="color: #333b3f"
+                            >678999999999999</span
+                          >
+                        </div>
+                      </td>
+                      <td>
+                        <i class="fa fa-clock-o" style="color: #53707f"></i>
+                        15.05.2023 18:29
+                        <div>
+                          <i class="fa fa-clock-o" style="color: #53707f"></i
+                          >17.05.2023 00:05
+                        </div>
+                        <div style="color: #ff6565">
+                          <i class="fa fa-clock-o"></i>17.05.2023 00:05
+                        </div>
+                      </td>
+                      <td>
+                        <i class="fa fa-male" style="color: #9465cf"></i>
+                        <span
+                          class="group_consultant"
+                          style="display: inline-block"
+                          >Вася</span
+                        >
+                      </td>
+                      <td>
+                        <i
+                          class="fa fa-share-square"
+                          style="color: #4a924d"
+                        ></i>
+                        7
+                        <p>
+                          <i
+                            class="icon-note"
+                            style="
+                              font-size: 15px;
+                              font-weight: bold;
+                              color: #4a924d;
+                            "
+                          ></i>
+                          6
+                        </p>
+                      </td>
+                      <td>
+                        <i
+                          data-toggle="modal"
+                          data-target="#dogovoraModal"
+                          class="show-more fa fa-eye"
+                        ></i>
+                      </td>
+                    </tr>
+                    <tr
+                      data-id="323"
+                      class="customer_information tr_color_forconsultation"
+                    >
+                      <td data-id="get_update_data_source">
+                        <i class="fa fa-slack" style="color: #00bad8"></i> 323
+                        <div class="d-flex align-centr">
+                          <i class="fa fa-sign-in" style="color: #d3cb75"></i>
+                          <div class="update_data_table">Нет источника</div>
+                        </div>
+                      </td>
+                      <td data-id="get_update_data_name_customers">
+                        <div class="d-flex align-centr">
+                          <i class="text-primary fa fa-user"></i>
+                          <div class="update_data_table" style="color: #333b3f">
+                            Витя Фомин
+                          </div>
+                        </div>
+
+                        <div id="323" class="select5">
+                          <input
+                            type="hidden"
+                            name="item"
+                            value=""
+                            class="input_status_add"
+                          />
+                          <div class="btn selected5 forconsultation_status">
+                            На консультации
+                          </div>
+                          <div class="option-list status_castom"></div>
+                        </div>
+                      </td>
+                      <td
+                        data-id="get_update_data_phone"
+                        data-id_2="get_update_data_phone_reserve"
+                      >
+                        <div>
+                          <i
+                            class="fa fa-phone-square"
+                            style="color: #a0877e"
+                          ></i
+                          ><span
+                            class="update_data_table"
+                            style="color: #333b3f"
+                            >пппппппппппппп</span
+                          >
+                        </div>
+                        <div style="display: inline-block">
+                          <i
+                            class="fa fa-phone-square"
+                            style="color: #a0877e"
+                          ></i
+                          ><span
+                            class="update_data_table"
+                            style="color: #333b3f"
+                            >52211411111</span
+                          >
+                        </div>
+                      </td>
+                      <td>
+                        <i class="fa fa-clock-o" style="color: #53707f"></i>
+                        01.01.1970 03:00
+                        <div>
+                          <i class="fa fa-clock-o" style="color: #53707f"></i
+                          >17.05.2023 00:15
+                        </div>
+                        <div style="color: #79c1ce">
+                          <i class="fa fa-clock-o"></i>17.05.2023 00:15
+                        </div>
+                      </td>
+                      <td>
+                        <i class="fa fa-male" style="color: #9465cf"></i>
+                        <span
+                          class="group_consultant"
+                          style="display: inline-block"
+                        ></span>
+                      </td>
+                      <td>
+                        <i
+                          class="fa fa-share-square"
+                          style="color: #4a924d"
+                        ></i>
+                        3
+                        <p>
+                          <i
+                            class="icon-note"
+                            style="
+                              font-size: 15px;
+                              font-weight: bold;
+                              color: #4a924d;
+                            "
+                          ></i>
+                          8
+                        </p>
+                      </td>
+                      <td>
+                        <i
+                          data-toggle="modal"
+                          data-target="#dogovoraModal"
+                          class="show-more fa fa-eye"
+                        ></i>
+                      </td>
+                    </tr>
+                    <tr
+                      data-id="322"
+                      class="customer_information tr_color_calling"
+                    >
+                      <td data-id="get_update_data_source">
+                        <i class="fa fa-slack" style="color: #00bad8"></i> 322
+                        <div class="d-flex align-centr">
+                          <i class="fa fa-sign-in" style="color: #d3cb75"></i>
+                          <div class="update_data_table">Нет источника</div>
+                        </div>
+                      </td>
+                      <td data-id="get_update_data_name_customers">
+                        <div class="d-flex align-centr">
+                          <i class="text-primary fa fa-user"></i>
+                          <div class="update_data_table" style="color: #333b3f">
+                            Игорь Р
+                          </div>
+                        </div>
+
+                        <div id="322" class="select5">
+                          <input
+                            type="hidden"
+                            name="item"
+                            value=""
+                            class="input_status_add"
+                          />
+                          <div class="btn selected5 calling_status">Созвон</div>
+                          <div class="option-list status_castom"></div>
+                        </div>
+                      </td>
+                      <td
+                        data-id="get_update_data_phone"
+                        data-id_2="get_update_data_phone_reserve"
+                      >
+                        <div>
+                          <i
+                            class="fa fa-phone-square"
+                            style="color: #a0877e"
+                          ></i
+                          ><span
+                            class="update_data_table"
+                            style="color: #333b3f"
+                            >89057714825</span
+                          >
+                        </div>
+                        <div style="display: none">
+                          <i
+                            class="fa fa-phone-square"
+                            style="color: #a0877e"
+                          ></i
+                          ><span
+                            class="update_data_table"
+                            style="color: #333b3f"
+                          ></span>
+                        </div>
+                      </td>
+                      <td>
+                        <i class="fa fa-clock-o" style="color: #53707f"></i>
+                        01.01.1970 03:00
+                        <div>
+                          <i class="fa fa-clock-o" style="color: #53707f"></i
+                          >16.05.2023 18:34
+                        </div>
+                        <div style="color: #8b00ff">
+                          <i class="fa fa-clock-o"></i>13.12.1899 13:45
+                        </div>
+                      </td>
+                      <td>
+                        <i class="fa fa-male" style="color: #9465cf"></i>
+                        <span
+                          class="group_consultant"
+                          style="display: inline-block"
+                          >Вася<br />
+                          Владлен
+                        </span>
+                      </td>
+                      <td>
+                        <i
+                          class="fa fa-share-square"
+                          style="color: #4a924d"
+                        ></i>
+                        1
+                        <p>
+                          <i
+                            class="icon-note"
+                            style="
+                              font-size: 15px;
+                              font-weight: bold;
+                              color: #4a924d;
+                            "
+                          ></i>
+                          1
+                        </p>
+                      </td>
+                      <td>
+                        <i
+                          data-toggle="modal"
+                          data-target="#dogovoraModal"
+                          class="show-more fa fa-eye"
+                        ></i>
+                      </td>
+                    </tr>
+                    <tr
+                      data-id="321"
+                      class="customer_information tr_color_marriage"
+                    >
+                      <td data-id="get_update_data_source">
+                        <i class="fa fa-slack" style="color: #00bad8"></i> 321
+                        <div class="d-flex align-centr">
+                          <i class="fa fa-sign-in" style="color: #d3cb75"></i>
+                          <div class="update_data_table">Нет источника</div>
+                        </div>
+                      </td>
+                      <td data-id="get_update_data_name_customers">
+                        <div class="d-flex align-centr">
+                          <i class="text-primary fa fa-user"></i>
+                          <div class="update_data_table" style="color: #333b3f">
+                            tttttttttttt
+                          </div>
+                        </div>
+
+                        <div id="321" class="select5">
+                          <input
+                            type="hidden"
+                            name="item"
+                            value=""
+                            class="input_status_add"
+                          />
+                          <div class="btn selected5 marriage_status">Брак</div>
+                          <div class="option-list status_castom"></div>
+                        </div>
+                      </td>
+                      <td
+                        data-id="get_update_data_phone"
+                        data-id_2="get_update_data_phone_reserve"
+                      >
+                        <div>
+                          <i
+                            class="fa fa-phone-square"
+                            style="color: #a0877e"
+                          ></i
+                          ><span
+                            class="update_data_table"
+                            style="color: #333b3f"
+                            >44444444444444444444</span
+                          >
+                        </div>
+                        <div style="display: none">
+                          <i
+                            class="fa fa-phone-square"
+                            style="color: #a0877e"
+                          ></i
+                          ><span
+                            class="update_data_table"
+                            style="color: #333b3f"
+                          ></span>
+                        </div>
+                      </td>
+                      <td>
+                        <i class="fa fa-clock-o" style="color: #53707f"></i>
+                        01.01.1970 03:00
+                        <div>
+                          <i class="fa fa-clock-o" style="color: #53707f"></i
+                          >19.05.2023 12:10
+                        </div>
+                        <div style="color: #bfcacc">
+                          <i class="fa fa-clock-o"></i>19.05.2023 12:10
+                        </div>
+                      </td>
+                      <td>
+                        <i class="fa fa-male" style="color: #9465cf"></i>
+                        <span
+                          class="group_consultant"
+                          style="display: inline-block"
+                          >Иванов Иван Иванович</span
+                        >
+                      </td>
+                      <td>
+                        <i
+                          class="fa fa-share-square"
+                          style="color: #4a924d"
+                        ></i>
+                        10
+                        <p>
+                          <i
+                            class="icon-note"
+                            style="
+                              font-size: 15px;
+                              font-weight: bold;
+                              color: #4a924d;
+                            "
+                          ></i>
+                          3
+                        </p>
+                      </td>
+                      <td>
+                        <i
+                          data-toggle="modal"
+                          data-target="#dogovoraModal"
+                          class="show-more fa fa-eye"
+                        ></i>
+                      </td>
+                    </tr>
+                    <tr
+                      data-id="320"
+                      class="customer_information tr_color_contract"
+                    >
+                      <td data-id="get_update_data_source">
+                        <i class="fa fa-slack" style="color: #00bad8"></i> 320
+                        <div class="d-flex align-centr">
+                          <i class="fa fa-sign-in" style="color: #d3cb75"></i>
+                          <div class="update_data_table">Нет источника</div>
+                        </div>
+                      </td>
+                      <td data-id="get_update_data_name_customers">
+                        <div class="d-flex align-centr">
+                          <i class="text-primary fa fa-user"></i>
+                          <div class="update_data_table" style="color: #333b3f">
+                            vvvvvvvvvvvvvvv
+                          </div>
+                        </div>
+
+                        <div id="320" class="select5">
+                          <input
+                            type="hidden"
+                            name="item"
+                            value=""
+                            class="input_status_add"
+                          />
+                          <div class="btn selected5 contract_status">
+                            Договор
+                          </div>
+                          <div class="option-list status_castom"></div>
+                        </div>
+                      </td>
+                      <td
+                        data-id="get_update_data_phone"
+                        data-id_2="get_update_data_phone_reserve"
+                      >
+                        <div>
+                          <i
+                            class="fa fa-phone-square"
+                            style="color: #a0877e"
+                          ></i
+                          ><span
+                            class="update_data_table"
+                            style="color: #333b3f"
+                            >vvvvvvvvvvvvvvv</span
+                          >
+                        </div>
+                        <div style="display: inline-block">
+                          <i
+                            class="fa fa-phone-square"
+                            style="color: #a0877e"
+                          ></i
+                          ><span
+                            class="update_data_table"
+                            style="color: #333b3f"
+                            >vvvvvvvvvvvvvvvvvv</span
+                          >
+                        </div>
+                      </td>
+                      <td>
+                        <i class="fa fa-clock-o" style="color: #53707f"></i>
+                        01.01.1970 03:00
+                        <div>
+                          <i class="fa fa-clock-o" style="color: #53707f"></i
+                          >16.05.2023 18:35
+                        </div>
+                        <div style="color: #35afff">
+                          <i class="fa fa-clock-o"></i>17.05.2023 13:45
+                        </div>
+                      </td>
+                      <td>
+                        <i class="fa fa-male" style="color: #9465cf"></i>
+                        <span
+                          class="group_consultant"
+                          style="display: inline-block"
+                          >Владлен <br />
+                          Вася</span
+                        >
+                      </td>
+                      <td>
+                        <i
+                          class="fa fa-share-square"
+                          style="color: #4a924d"
+                        ></i>
+                        1
+                        <p>
+                          <i
+                            class="icon-note"
+                            style="
+                              font-size: 15px;
+                              font-weight: bold;
+                              color: #4a924d;
+                            "
+                          ></i>
+                          0
+                        </p>
+                      </td>
+                      <td>
+                        <i
+                          data-toggle="modal"
+                          data-target="#dogovoraModal"
+                          class="show-more fa fa-eye"
+                        ></i>
+                      </td>
+                    </tr>
+                    <tr
+                      data-id="319"
+                      class="customer_information tr_color_contract"
+                    >
+                      <td data-id="get_update_data_source">
+                        <i class="fa fa-slack" style="color: #00bad8"></i> 319
+                        <div class="d-flex align-centr">
+                          <i class="fa fa-sign-in" style="color: #d3cb75"></i>
+                          <div class="update_data_table">Нет источника</div>
+                        </div>
+                      </td>
+                      <td data-id="get_update_data_name_customers">
+                        <div class="d-flex align-centr">
+                          <i class="text-primary fa fa-user"></i>
+                          <div class="update_data_table" style="color: #333b3f">
+                            11111111111111
+                          </div>
+                        </div>
+
+                        <div id="319" class="select5">
+                          <input
+                            type="hidden"
+                            name="item"
+                            value=""
+                            class="input_status_add"
+                          />
+                          <div class="btn selected5 contract_status">
+                            Договор
+                          </div>
+                          <div class="option-list status_castom"></div>
+                        </div>
+                      </td>
+                      <td
+                        data-id="get_update_data_phone"
+                        data-id_2="get_update_data_phone_reserve"
+                      >
+                        <div>
+                          <i
+                            class="fa fa-phone-square"
+                            style="color: #a0877e"
+                          ></i
+                          ><span
+                            class="update_data_table"
+                            style="color: #333b3f"
+                            >22222222222222222</span
+                          >
+                        </div>
+                        <div style="display: inline-block">
+                          <i
+                            class="fa fa-phone-square"
+                            style="color: #a0877e"
+                          ></i
+                          ><span
+                            class="update_data_table"
+                            style="color: #333b3f"
+                            >dddddddd</span
+                          >
+                        </div>
+                      </td>
+                      <td>
+                        <i class="fa fa-clock-o" style="color: #53707f"></i>
+                        01.01.1970 03:00
+                        <div>
+                          <i class="fa fa-clock-o" style="color: #53707f"></i
+                          >14.05.2023 00:28
+                        </div>
+                        <div style="color: #35afff">
+                          <i class="fa fa-clock-o"></i>
+                        </div>
+                      </td>
+                      <td>
+                        <i class="fa fa-male" style="color: #9465cf"></i>
+                        <span
+                          class="group_consultant"
+                          style="display: inline-block"
+                          >Вася</span
+                        >
+                      </td>
+                      <td>
+                        <i
+                          class="fa fa-share-square"
+                          style="color: #4a924d"
+                        ></i>
+                        1
+                        <p>
+                          <i
+                            class="icon-note"
+                            style="
+                              font-size: 15px;
+                              font-weight: bold;
+                              color: #4a924d;
+                            "
+                          ></i>
+                          1
+                        </p>
+                      </td>
+                      <td>
+                        <i
+                          data-toggle="modal"
+                          data-target="#dogovoraModal"
+                          class="show-more fa fa-eye"
+                        ></i>
+                      </td>
+                    </tr>
+                    <tr
+                      data-id="318"
+                      class="customer_information tr_color_meeting"
+                    >
+                      <td data-id="get_update_data_source">
+                        <i class="fa fa-slack" style="color: #00bad8"></i> 318
+                        <div class="d-flex align-centr">
+                          <i class="fa fa-sign-in" style="color: #d3cb75"></i>
+                          <div class="update_data_table">Нет источника</div>
+                        </div>
+                      </td>
+                      <td data-id="get_update_data_name_customers">
+                        <div class="d-flex align-centr">
+                          <i class="text-primary fa fa-user"></i>
+                          <div class="update_data_table" style="color: #333b3f">
+                            66666666666666
+                          </div>
+                        </div>
+
+                        <div id="318" class="select5">
+                          <input
+                            type="hidden"
+                            name="item"
+                            value=""
+                            class="input_status_add"
+                          />
+                          <div class="btn selected5 meeting_status">
+                            Встреча
+                          </div>
+                          <div class="option-list status_castom"></div>
+                        </div>
+                      </td>
+                      <td
+                        data-id="get_update_data_phone"
+                        data-id_2="get_update_data_phone_reserve"
+                      >
+                        <div>
+                          <i
+                            class="fa fa-phone-square"
+                            style="color: #a0877e"
+                          ></i
+                          ><span
+                            class="update_data_table"
+                            style="color: #333b3f"
+                            >44444444444444444</span
+                          >
+                        </div>
+                        <div style="display: inline-block">
+                          <i
+                            class="fa fa-phone-square"
+                            style="color: #a0877e"
+                          ></i
+                          ><span
+                            class="update_data_table"
+                            style="color: #333b3f"
+                            >44444444444444</span
+                          >
+                        </div>
+                      </td>
+                      <td>
+                        <i class="fa fa-clock-o" style="color: #53707f"></i>
+                        01.01.1970 03:00
+                        <div>
+                          <i class="fa fa-clock-o" style="color: #53707f"></i
+                          >13.05.2023 02:39
+                        </div>
+                        <div style="color: rgb(233 161 35)">
+                          <i class="fa fa-clock-o"></i>11.05.2023 09:50
+                        </div>
+                      </td>
+                      <td>
+                        <i class="fa fa-male" style="color: #ff6565"></i>
+                        <span
+                          class="group_consultant"
+                          style="display: none"
+                        ></span>
+                      </td>
+                      <td>
+                        <i
+                          class="fa fa-share-square"
+                          style="color: #4a924d"
+                        ></i>
+                        1
+                        <p>
+                          <i
+                            class="icon-note"
+                            style="
+                              font-size: 15px;
+                              font-weight: bold;
+                              color: #4a924d;
+                            "
+                          ></i>
+                          0
+                        </p>
+                      </td>
+                      <td>
+                        <i
+                          data-toggle="modal"
+                          data-target="#dogovoraModal"
+                          class="show-more fa fa-eye"
+                        ></i>
+                      </td>
+                    </tr>
+                    <tr
+                      data-id="317"
+                      class="customer_information tr_color_forconsultation"
+                    >
+                      <td data-id="get_update_data_source">
+                        <i class="fa fa-slack" style="color: #00bad8"></i> 317
+                        <div class="d-flex align-centr">
+                          <i class="fa fa-sign-in" style="color: #d3cb75"></i>
+                          <div class="update_data_table">Нет источника</div>
+                        </div>
+                      </td>
+                      <td data-id="get_update_data_name_customers">
+                        <div class="d-flex align-centr">
+                          <i class="text-primary fa fa-user"></i>
+                          <div
+                            class="update_data_table"
+                            style="color: #333b3f"
+                          ></div>
+                        </div>
+
+                        <div id="317" class="select5">
+                          <input
+                            type="hidden"
+                            name="item"
+                            value=""
+                            class="input_status_add"
+                          />
+                          <div class="btn selected5 forconsultation_status">
+                            На консультации
+                          </div>
+                          <div class="option-list status_castom"></div>
+                        </div>
+                      </td>
+                      <td
+                        data-id="get_update_data_phone"
+                        data-id_2="get_update_data_phone_reserve"
+                      >
+                        <div>
+                          <i
+                            class="fa fa-phone-square"
+                            style="color: #a0877e"
+                          ></i
+                          ><span
+                            class="update_data_table"
+                            style="color: #333b3f"
+                          ></span>
+                        </div>
+                        <div style="display: none">
+                          <i
+                            class="fa fa-phone-square"
+                            style="color: #a0877e"
+                          ></i
+                          ><span
+                            class="update_data_table"
+                            style="color: #333b3f"
+                          ></span>
+                        </div>
+                      </td>
+                      <td>
+                        <i class="fa fa-clock-o" style="color: #53707f"></i>
+                        01.01.1970 03:00
+                        <div>
+                          <i class="fa fa-clock-o" style="color: #53707f"></i
+                          >14.05.2023 00:28
+                        </div>
+                        <div style="color: #79c1ce">
+                          <i class="fa fa-clock-o"></i>14.05.2023 00:28
+                        </div>
+                      </td>
+                      <td>
+                        <i class="fa fa-male" style="color: #9465cf"></i>
+                        <span
+                          class="group_consultant"
+                          style="display: inline-block"
+                          >Вася</span
+                        >
+                      </td>
+                      <td>
+                        <i
+                          class="fa fa-share-square"
+                          style="color: #4a924d"
+                        ></i>
+                        1
+                        <p>
+                          <i
+                            class="icon-note"
+                            style="
+                              font-size: 15px;
+                              font-weight: bold;
+                              color: #4a924d;
+                            "
+                          ></i>
+                          0
+                        </p>
+                      </td>
+                      <td>
+                        <i
+                          data-toggle="modal"
+                          data-target="#dogovoraModal"
+                          class="show-more fa fa-eye"
+                        ></i>
+                      </td>
+                    </tr>
+                  </tbody>
+                  <tbody class="customer_table_search"></tbody>
+                </table>
+
+                <!-- Модальное окно -->
+                <!--          <div class="modal fade" id="dogovoraModal" tabindex="-1" aria-labelledby="exampleModalLabel"-->
+                <!--               aria-hidden="true">-->
+                <!--              <div class="modal-dialog" role="document">-->
+                <!--  <div class="modal-content">-->
+                <!--    <div class="modal-header">-->
+                <!--      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>-->
+                <!--      <h4 class="modal-title">Карточка клиента</h4>-->
+                <!--    </div>-->
+                <!--    <div class="modal-body customer_card">-->
+                <!--    </div>-->
+                <!--    <div class="modal-footer">-->
+                <!--      <button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>-->
+                <!--      <button type="button" class="btn btn-primary">Сохранить</button>-->
+                <!--    </div>-->
+                <!--  </div>-->
+                <!--</div>-->
+                <!--          </div>-->
+                <div
+                  class="modal fade"
+                  id="dogovoraModal"
+                  tabindex="-1"
+                  role="dialog"
+                  aria-labelledby="myLargeModalLabel"
+                >
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button
+                          type="button"
+                          class="close"
+                          data-dismiss="modal"
+                          aria-label="Close"
+                        >
+                          <span aria-hidden="true">×</span>
+                        </button>
+                        <ul class="nav nav-tabs">
+                          <li class="active">
+                            <a
+                              class="text-primary"
+                              href="#first-tab-content"
+                              data-toggle="tab"
+                              >Карточка клиента</a
+                            >
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="modal-body">
+                        <div class="tab-content">
+                          <div
+                            id="first-tab-content"
+                            class="tab-pane fade in active"
+                          >
+                            <div class="row customer_card"></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- /.modal-content -->
+                  </div>
+                  <!-- /.modal-dialog -->
+                </div>
+                <!-- /.modal -->
+                <!--<div class="modal fade" id="clientAdd" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">-->
+                <!--        <div class="modal-dialog" role="document">-->
+                <!--            <div class="modal-content">-->
+                <!--                <div class="modal-header">-->
+                <!--                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span-->
+                <!--                            aria-hidden="true">&times;</span></button>-->
+                <!--                    <h4 class="modal-title">Добавить клиента</h4>-->
+                <!--                </div>-->
+                <!--                <div class="modal-body add-clients">-->
+                <!--                    <div class="input-group"><input type="text" class="form-control name_customers" placeholder="Имя" aria-describedby="sizing-addon3"></div>-->
+                <!--                    <div class="input-group"><input  type="text" class="form-control phone phone-validation" placeholder="Телефон" aria-describedby="sizing-addon3"></div>-->
+                <!--                     <div class="input-group"><input type="text" class="form-control source" placeholder="Источник" aria-describedby="sizing-addon3"></div>-->
+                <!--                    <div class="input-group"><textarea class="form-control question" placeholder="Вопрос" aria-describedby="sizing-addon3"></textarea></div>-->
+                <!--                </div>-->
+                <!--                <div class="modal-footer">-->
+                <!--                    <button type="button" class="btn btn-primary add_new_customers" data-dismiss="modal">Сохранить</button>-->
+                <!--                </div>-->
+                <!--            </div><!-- /.modal-content -->
+                <!--        </div>-->
+                <!--    </div>-->
+
+                <div
+                  class="modal fade"
+                  id="clientAdd"
+                  tabindex="-1"
+                  role="dialog"
+                  aria-labelledby="myLargeModalLabel"
+                >
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button
+                          type="button"
+                          class="close"
+                          data-dismiss="modal"
+                          aria-label="Close"
+                        >
+                          <span aria-hidden="true">×</span>
+                        </button>
+                        <ul class="nav nav-tabs">
+                          <li class="active">
+                            <a
+                              class="text-primary"
+                              href="#first-tab-content"
+                              data-toggle="tab"
+                              >Добавить клиента</a
+                            >
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="modal-body">
+                        <div class="tab-content">
+                          <div
+                            id="first-tab-content"
+                            class="tab-pane fade in active"
+                          >
+                            <div class="row modal-body add_customer_data_card">
+                              <input
+                                type="text"
+                                class="form-control textarea_style name_customers"
+                                placeholder="Введите ФИО"
+                              />
+                              <input
+                                type="text"
+                                class="form-control textarea_style source"
+                                placeholder="Введите источник"
+                              />
+                              <input
+                                type="text"
+                                class="form-control textarea_style phone phone-validation"
+                                placeholder="Введите номер телефона"
+                              />
+                              <input
+                                type="text"
+                                class="form-control textarea_style phone_reserve phone-validation"
+                                placeholder="Введите дополнительный номер телефона"
+                              />
+                              <textarea
+                                class="form-control textarea_style question"
+                                placeholder="Введите вопрос"
+                              ></textarea>
+                              <button
+                                type="button"
+                                class="btn btn-success pull-right add_new_customers"
+                                data-dismiss="modal"
+                              >
+                                Сохранить
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- /.modal-content -->
+                  </div>
+                  <!-- /.modal-dialog -->
+                </div>
+                <!-- /.modal -->
+              </div>
+            </div>
+            <div id="idfoot">
+              <tr>
+                <!--td colspan="3">
+                <div class="page"><form class="form-inline">
+                           <div class="form-group">
+                          <label class="sr-only" for="inputEmail">№ страницы</label>
+                          <input type="text" name ="page" placeholder="№ страницы" class="form-control" style="max-width: 110px;">
+                              </div> 
+                           <button type="submit"  class="btn btn-success waves-effect">Перейти сразу</button>					
+                        </form>	</div>				
+                                                                       </td-->
+                <td colspan="5">
+                  <div class="pagination text-right">
+                    <nav>
+                      <ul class="pagination">
+                        <li class="active">
+                          <a
+                            href="/klientyi.html?mnc=PupkinVasiliy&amp;page=1"
+                            disabled=""
+                            >1</a
+                          >
+                        </li>
+                        <li>
+                          <a href="/klientyi.html?mnc=PupkinVasiliy&amp;page=2"
+                            >2</a
+                          >
+                        </li>
+                        <li>
+                          <a href="/klientyi.html?mnc=PupkinVasiliy&amp;page=3"
+                            >3</a
+                          >
+                        </li>
+                        <li>
+                          <a href="/klientyi.html?mnc=PupkinVasiliy&amp;page=4"
+                            >4</a
+                          >
+                        </li>
+                        <li>
+                          <a href="/klientyi.html?mnc=PupkinVasiliy&amp;page=5"
+                            >5</a
+                          >
+                        </li>
+                        <li>
+                          <a
+                            href="/klientyi.html?mnc=PupkinVasiliy&amp;page=2"
+                            disabled=""
+                            ><i class="fa fa-angle-right"></i
+                          ></a>
+                        </li>
+                        <li>
+                          <a
+                            href="/klientyi.html?mnc=PupkinVasiliy&amp;page=5"
+                            disabled=""
+                            ><i class="fa fa-angle-double-right"></i
+                          ></a>
+                        </li>
+                      </ul>
+                    </nav>
+                  </div>
+                </td>
+              </tr>
+            </div>
+          </section>
+        </div>
       </div>
-      <!--  Часы  -->
-      <div  class="clock">
-        <div id="panelData" class="panel__data"></div>
-        <div id="panelClock" class="panel__clock"></div>
-      </div>
-    </header>
-    <!-- Content index.html -->
-    <div class="page-wrapper">
-        Клиенты
-    </div>
-      <!-- Footer -->
       <footer class="lawity-footer t-a-c">
         <div class="footer-nav">
           <div class="footer-row-4">
-              <div class="imd-wrap">
-                  <img src="https://lawity.ru/img/Lawity_bg_white1.png" width="150" height="" alt="logo">
-                  <ul class="footer-adress_link">
-                      <li><a href="https://t.me/lawityhelpdeskbot">
-                          <svg xmlns="http://www.w3.org/2000/svg" data-name="Layer 1" viewBox="0 0 24 24" width="24" height="24">
-                              <path d="M22.26465,2.42773a2.04837,2.04837,0,0,0-2.07813-.32421L2.26562,9.33887a2.043,2.043,0,0,0,.1045,3.81836l3.625,1.26074,2.0205,6.68164A.998.998,0,0,0,8.134,21.352c.00775.012.01868.02093.02692.03259a.98844.98844,0,0,0,.21143.21576c.02307.01758.04516.03406.06982.04968a.98592.98592,0,0,0,.31073.13611l.01184.001.00671.00287a1.02183,1.02183,0,0,0,.20215.02051c.00653,0,.01233-.00312.0188-.00324a.99255.99255,0,0,0,.30109-.05231c.02258-.00769.04193-.02056.06384-.02984a.9931.9931,0,0,0,.20429-.11456,250.75993,250.75993,0,0,1,.15222-.12818L12.416,18.499l4.03027,3.12207a2.02322,2.02322,0,0,0,1.24121.42676A2.05413,2.05413,0,0,0,19.69531,20.415L22.958,4.39844A2.02966,2.02966,0,0,0,22.26465,2.42773ZM9.37012,14.73633a.99357.99357,0,0,0-.27246.50586l-.30951,1.504-.78406-2.59307,4.06525-2.11695ZM17.67188,20.04l-4.7627-3.68945a1.00134,1.00134,0,0,0-1.35352.11914l-.86541.9552.30584-1.48645,7.083-7.083a.99975.99975,0,0,0-1.16894-1.59375L6.74487,12.55432,3.02051,11.19141,20.999,3.999Z" fill="#8d9498" class="color000 svgShape"></path>
-                          </svg>
-                          <span>Тех поддержка</span>
-                      </a></li>
-                      <li><a href="tel:+74957774205">
-                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="24" height="24">
-                              <path fill="#8d9498" d="M12.2 10c-1.1-.1-1.7 1.4-2.5 1.8C8.4 12.5 6 10 6 10S3.5 7.6 4.1 6.3c.5-.8 2-1.4 1.9-2.5-.1-1-2.3-4.6-3.4-3.6C.2 2.4 0 3.3 0 5.1c-.1 3.1 3.9 7 3.9 7 .4.4 3.9 4 7 3.9 1.8 0 2.7-.2 4.9-2.6 1-1.1-2.5-3.3-3.6-3.4z" class="color444 svgShape"></path>
-                          </svg>
-                          <span>+7(495)777-42-05</span>
-                      </a></li>
-                      <li><a href="mailto:marketplace@lawity.ru">
-                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
-                              <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm-1 14H5c-.55 0-1-.45-1-1V8l6.94 4.34c.65.41 1.47.41 2.12 0L20 8v9c0 .55-.45 1-1 1zm-7-7L4 6h16l-8 5z" fill="#8d9498" class="color000 svgShape"></path>
-                          </svg>
-                          <span>marketplace@lawity.ru</span>
-                      </a></li>
-                      <li><strong style="color: #8d9498; font-size:10px">140185, Московская область, г. Жуковский,<br>ул.
-                          Амет-хан
-                          Султана, д. 7А</strong></li>
-                      <li><strong style="color: #8d9498; font-size:10px">ИП Васильева М.В. (ОГРНИП: 318502700081368)</strong>
-                      </li>
-                  </ul>
-              </div>
+            <div class="imd-wrap">
+              <img
+                src="https://lawity.ru/img/Lawity_bg_white1.png"
+                width="150"
+                height=""
+                alt="logo"
+              />
+              <ul class="footer-adress_link">
+                <li>
+                  <a href="https://t.me/lawityhelpdeskbot">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      data-name="Layer 1"
+                      viewBox="0 0 24 24"
+                      width="24"
+                      height="24"
+                    >
+                      <path
+                        d="M22.26465,2.42773a2.04837,2.04837,0,0,0-2.07813-.32421L2.26562,9.33887a2.043,2.043,0,0,0,.1045,3.81836l3.625,1.26074,2.0205,6.68164A.998.998,0,0,0,8.134,21.352c.00775.012.01868.02093.02692.03259a.98844.98844,0,0,0,.21143.21576c.02307.01758.04516.03406.06982.04968a.98592.98592,0,0,0,.31073.13611l.01184.001.00671.00287a1.02183,1.02183,0,0,0,.20215.02051c.00653,0,.01233-.00312.0188-.00324a.99255.99255,0,0,0,.30109-.05231c.02258-.00769.04193-.02056.06384-.02984a.9931.9931,0,0,0,.20429-.11456,250.75993,250.75993,0,0,1,.15222-.12818L12.416,18.499l4.03027,3.12207a2.02322,2.02322,0,0,0,1.24121.42676A2.05413,2.05413,0,0,0,19.69531,20.415L22.958,4.39844A2.02966,2.02966,0,0,0,22.26465,2.42773ZM9.37012,14.73633a.99357.99357,0,0,0-.27246.50586l-.30951,1.504-.78406-2.59307,4.06525-2.11695ZM17.67188,20.04l-4.7627-3.68945a1.00134,1.00134,0,0,0-1.35352.11914l-.86541.9552.30584-1.48645,7.083-7.083a.99975.99975,0,0,0-1.16894-1.59375L6.74487,12.55432,3.02051,11.19141,20.999,3.999Z"
+                        fill="#8d9498"
+                        class="color000 svgShape"
+                      ></path>
+                    </svg>
+                    <span>Тех поддержка</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="tel:+74957774205">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 16 16"
+                      width="24"
+                      height="24"
+                    >
+                      <path
+                        fill="#8d9498"
+                        d="M12.2 10c-1.1-.1-1.7 1.4-2.5 1.8C8.4 12.5 6 10 6 10S3.5 7.6 4.1 6.3c.5-.8 2-1.4 1.9-2.5-.1-1-2.3-4.6-3.4-3.6C.2 2.4 0 3.3 0 5.1c-.1 3.1 3.9 7 3.9 7 .4.4 3.9 4 7 3.9 1.8 0 2.7-.2 4.9-2.6 1-1.1-2.5-3.3-3.6-3.4z"
+                        class="color444 svgShape"
+                      ></path>
+                    </svg>
+                    <span>+7(495)777-42-05</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="mailto:marketplace@lawity.ru">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      width="24"
+                      height="24"
+                    >
+                      <path
+                        d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm-1 14H5c-.55 0-1-.45-1-1V8l6.94 4.34c.65.41 1.47.41 2.12 0L20 8v9c0 .55-.45 1-1 1zm-7-7L4 6h16l-8 5z"
+                        fill="#8d9498"
+                        class="color000 svgShape"
+                      ></path>
+                    </svg>
+                    <span>marketplace@lawity.ru</span>
+                  </a>
+                </li>
+                <li>
+                  <strong style="color: #8d9498; font-size: 10px"
+                    >140185, Московская область, г. Жуковский,<br />ул. Амет-хан
+                    Султана, д. 7А</strong
+                  >
+                </li>
+                <li>
+                  <strong style="color: #8d9498; font-size: 10px"
+                    >ИП Васильева М.В. (ОГРНИП: 318502700081368)</strong
+                  >
+                </li>
+              </ul>
+            </div>
           </div>
           <div class="footer-row-4">
-              <ul class="footer-nav_link">
-                  <h3>Документация</h3>
-                  <li class="hover_link"><a href="https://lawity.ru/contract.html">Договор оферты</a></li>
-                  <li class="hover_link"><a href="https://lawity.ru/pricing.html">Прайс лист</a></li>
-                  <li class="hover_link"><a href="https://lawity.ru/scans-of-the-contract-offer.html">Сканы</a></li>
-              </ul>
+            <ul class="footer-nav_link">
+              <h3>Документация</h3>
+              <li class="hover_link">
+                <a href="https://lawity.ru/contract.html">Договор оферты</a>
+              </li>
+              <li class="hover_link">
+                <a href="https://lawity.ru/pricing.html">Прайс лист</a>
+              </li>
+              <li class="hover_link">
+                <a href="https://lawity.ru/scans-of-the-contract-offer.html"
+                  >Сканы</a
+                >
+              </li>
+            </ul>
           </div>
           <div class="footer-row-4">
-              <ul class="footer-nav_link">
-                  <h3>Наши продукты</h3>
-                  <li class="hover_link">Маркетплейс "Lawity"</li>
-                  <li class="hover_link">CRM Колл-центра</li>
-                  <li class="hover_link">CRM СРА-сеть</li>
-                  <li class="hover_link">CRM Юрист</li>
-              </ul>
+            <ul class="footer-nav_link">
+              <h3>Наши продукты</h3>
+              <li class="hover_link">Маркетплейс "Lawity"</li>
+              <li class="hover_link">CRM Колл-центра</li>
+              <li class="hover_link">CRM СРА-сеть</li>
+              <li class="hover_link">CRM Юрист</li>
+            </ul>
           </div>
           <div class="footer-row-4">
-              <ul class="footer-nav_link">
-                  <h3>Социальные сети</h3>
-                  <li><a href="https://t.me/mplawity">
-  
-                      <svg xmlns="http://www.w3.org/2000/svg" data-name="Layer 1" viewBox="0 0 24 24" width="30" height="30">
-                          <path d="M22.26465,2.42773a2.04837,2.04837,0,0,0-2.07813-.32421L2.26562,9.33887a2.043,2.043,0,0,0,.1045,3.81836l3.625,1.26074,2.0205,6.68164A.998.998,0,0,0,8.134,21.352c.00775.012.01868.02093.02692.03259a.98844.98844,0,0,0,.21143.21576c.02307.01758.04516.03406.06982.04968a.98592.98592,0,0,0,.31073.13611l.01184.001.00671.00287a1.02183,1.02183,0,0,0,.20215.02051c.00653,0,.01233-.00312.0188-.00324a.99255.99255,0,0,0,.30109-.05231c.02258-.00769.04193-.02056.06384-.02984a.9931.9931,0,0,0,.20429-.11456,250.75993,250.75993,0,0,1,.15222-.12818L12.416,18.499l4.03027,3.12207a2.02322,2.02322,0,0,0,1.24121.42676A2.05413,2.05413,0,0,0,19.69531,20.415L22.958,4.39844A2.02966,2.02966,0,0,0,22.26465,2.42773ZM9.37012,14.73633a.99357.99357,0,0,0-.27246.50586l-.30951,1.504-.78406-2.59307,4.06525-2.11695ZM17.67188,20.04l-4.7627-3.68945a1.00134,1.00134,0,0,0-1.35352.11914l-.86541.9552.30584-1.48645,7.083-7.083a.99975.99975,0,0,0-1.16894-1.59375L6.74487,12.55432,3.02051,11.19141,20.999,3.999Z" fill="#8d9498" class="color000 svgShape"></path>
-                      </svg>
-                  </a></li>
-              </ul>
+            <ul class="footer-nav_link">
+              <h3>Социальные сети</h3>
+              <li>
+                <a href="https://t.me/mplawity">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    data-name="Layer 1"
+                    viewBox="0 0 24 24"
+                    width="30"
+                    height="30"
+                  >
+                    <path
+                      d="M22.26465,2.42773a2.04837,2.04837,0,0,0-2.07813-.32421L2.26562,9.33887a2.043,2.043,0,0,0,.1045,3.81836l3.625,1.26074,2.0205,6.68164A.998.998,0,0,0,8.134,21.352c.00775.012.01868.02093.02692.03259a.98844.98844,0,0,0,.21143.21576c.02307.01758.04516.03406.06982.04968a.98592.98592,0,0,0,.31073.13611l.01184.001.00671.00287a1.02183,1.02183,0,0,0,.20215.02051c.00653,0,.01233-.00312.0188-.00324a.99255.99255,0,0,0,.30109-.05231c.02258-.00769.04193-.02056.06384-.02984a.9931.9931,0,0,0,.20429-.11456,250.75993,250.75993,0,0,1,.15222-.12818L12.416,18.499l4.03027,3.12207a2.02322,2.02322,0,0,0,1.24121.42676A2.05413,2.05413,0,0,0,19.69531,20.415L22.958,4.39844A2.02966,2.02966,0,0,0,22.26465,2.42773ZM9.37012,14.73633a.99357.99357,0,0,0-.27246.50586l-.30951,1.504-.78406-2.59307,4.06525-2.11695ZM17.67188,20.04l-4.7627-3.68945a1.00134,1.00134,0,0,0-1.35352.11914l-.86541.9552.30584-1.48645,7.083-7.083a.99975.99975,0,0,0-1.16894-1.59375L6.74487,12.55432,3.02051,11.19141,20.999,3.999Z"
+                      fill="#8d9498"
+                      class="color000 svgShape"
+                    ></path>
+                  </svg>
+                </a>
+              </li>
+            </ul>
           </div>
         </div>
-        <hr>
+        <hr />
         <div class="copyright">
           © 2020 - CRM-система представляется в пользование по договору
           <a href="https://lawity.ru/contract.html">
-              <strong>оферты</strong>
-          </a><br>
+            <strong>оферты</strong> </a
+          ><br />
           Данная система разработана Маркетплейсом Рекламы и CRM систем
           <a href="https://t.me/mplawity">
-              <strong>"Lawity"</strong>
+            <strong>"Lawity"</strong>
           </a>
-          Любое использование материалов Сайта из защищенных разделов Сайта, а также из всех его подразделов посредством
-          воспроизведения в какой-либо форме, каким-либо способом запрещается, защищены законодательством об
-          авторских правах, являясь интеллектуальной собственностью ИП Васильева М.В. (ОГРНИП: 318502700081368)
+          Любое использование материалов Сайта из защищенных разделов Сайта, а
+          также из всех его подразделов посредством воспроизведения в какой-либо
+          форме, каким-либо способом запрещается, защищены законодательством об
+          авторских правах, являясь интеллектуальной собственностью ИП Васильева
+          М.В. (ОГРНИП: 318502700081368)
         </div>
       </footer>
-  </div>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="../script.js"></script>
-</body>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+    <script src="../script.js"></script>
+    <script src="./../scripts/select2.js"></script>
+  </body>
 </html>
