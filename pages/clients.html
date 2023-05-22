@@ -503,24 +503,13 @@
                 <b style="color: #333b3f">42</b>
               </div></ttotal
             >
-            <div class="add__client" style="margin-bottom: 15px;">
-              <button
-                  class="btn btn-block btn-md btn-primary add_customer_data"
-                  type="button"
-                  data-toggle="modal"
-                  data-target="#clientAdd"
-                >
-                  <i class="fa fa-plus-square"></i>
-                  Добавить клиента
-              </button>
-            </div>
-            <div class="white-box bg-white p-3">
-              <div class="col-12 overflo-y-scroll">
-                <table id="general-table" class="table table-striped">
+            
+            <div class="white-box col-xs-12" style="padding-top: 15px;">
+              
+                <!-- <table id="general-table" class="table table-striped">
                   <thead>
                     <tr>
                       <th><strong>ID/Источник</strong></th>
-                      <!--<th><strong>Источник</strong></th>-->
                       <th><strong>ФИО/Статус</strong></th>
                       <th><strong>Телефон</strong></th>
                       <th>
@@ -1566,26 +1555,563 @@
                     </tr>
                   </tbody>
                   <tbody class="customer_table_search"></tbody>
-                </table>
+                  </table> -->
+                  <div class="add__client col-md-12 row" style="margin-bottom: 15px;">
+                    <button
+                        class="btn btn-block btn-md btn-primary add_customer_data"
+                        type="button"
+                        data-toggle="modal"
+                        data-target="#clientAdd"
+                      >
+                        <i class="fa fa-plus-square"></i>
+                        Добавить клиента
+                    </button>
+                  </div>
+                  <div class="client__table_header col-md-12 row">
+                    <div class="client__table_id col-xs-6">ID/Источник</div>
+                    <div class="client__table_name col-xs-6">ФИО/Статус</div>
+                  </div>
+        
+                  <div class="client__card row"
+                        data-toggle="collapse" 
+                        data-target="#targetClient1">
+                    <div class="col-md-12 row"  >
+                      <div
+                        data-id="327" 
+                        class="col-xs-6 customer_information tr_color_forconsultation">
+                        <div data-id="get_update_data_source">
+                           327
+                          <div class="d-flex align-centr">
+                            <div class="update_data_table"
+                                  style="font-size: 13px;">Нет источника</div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-xs-6" style="padding-right: 0;"
+                       data-id="get_update_data_name_customers">
+                        <div class="d-flex align-centr"
+                        >
+                          <div class="update_data_table" style="color: #333b3f; text-align: right;padding-right: 15px;">
+                            Вова
+                          </div>
+                        </div>
+                        <div id="327" class="select5">
+                          <input
+                            type="hidden"
+                            name="item"
+                            value=""
+                            class="input_status_add"
+                          />
+                          <div class="btn selected5 forconsultation_status">
+                            На консультации
+                          </div>
+                          <div class="option-list status_castom"></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div                       
+                     class="card__colapse collapse col-md-12 row" id="targetClient1">
+                     <div class="col-xs-12 client__card_items"
+                          style="background-color: rgb(209, 221, 231);
+                          margin-top: 15px;
+                          ">
+                        <div class="client__card_head col-xs-6"
+                         >Телефон</div>
+                        <div
+                          class="client__info client__info_tel col-xs-6">
+                          <p >+7 (333) 333 3333</p>
+                          <p >+7 (555) 555 5555</p>
+                        </div>
+                     </div>  
+                     <div class="col-xs-12 client__card_items"
+                     
+                     >
+                      <div class="client__card_head col-xs-6"
+                      >Дата посещения/
+                          изменения/назначения</div>
+                      <div 
+                        class="client__info client__info_date col-xs-6">
+                        <p >01.01.1970 03:00</p>
+                        <p >20.05.2023 14:44</p>
+                        <p >20.05.2023 14:44</p>
+                      </div>
+                     </div>                  
+                     <div class="col-xs-12 client__card_items"
+                        style="background-color: rgb(209, 221, 231);"
+                     >
+                      <div class="client__card_head col-xs-6"
+                      >Консультант</div>
+                      <div 
+                        class="client__info client__info_date col-xs-6">
+                        <p >Вася</p>                     
+                      </div>
+                     </div>                  
+                     <div class="col-xs-12 client__card_items"
+                     >
+                      <div class="client__card_head col-xs-6"
+                      >Приходы/Договора</div>
+                      <div 
+                        class="client__info client__info_date col-xs-6">
+                        <p >0/1</p>                     
+                      </div>
+                     </div>                  
+                     <div class="col-xs-12 client__card_items"
+                          style="background-color: rgb(209, 221, 231);"
+                     >
+                      <div class="client__card_button">
+                        <button data-toggle="modal" data-target="#dogovoraModal" class="btn btn-primary btn-block">
+                          Карточка клиента                      
+                        </button>
+                      </div>    
+                     </div>                  
+                    </div>
+                  </div>
 
-                <!-- Модальное окно -->
-                <!--          <div class="modal fade" id="dogovoraModal" tabindex="-1" aria-labelledby="exampleModalLabel"-->
-                <!--               aria-hidden="true">-->
-                <!--              <div class="modal-dialog" role="document">-->
-                <!--  <div class="modal-content">-->
-                <!--    <div class="modal-header">-->
-                <!--      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>-->
-                <!--      <h4 class="modal-title">Карточка клиента</h4>-->
-                <!--    </div>-->
-                <!--    <div class="modal-body customer_card">-->
-                <!--    </div>-->
-                <!--    <div class="modal-footer">-->
-                <!--      <button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>-->
-                <!--      <button type="button" class="btn btn-primary">Сохранить</button>-->
-                <!--    </div>-->
-                <!--  </div>-->
-                <!--</div>-->
-                <!--          </div>-->
+                  <div class="client__card row"
+                        data-toggle="collapse" 
+                        data-target="#targetClient2">
+                    <div class="col-md-12 row"  >
+                      <div
+                        data-id="331" 
+                        class="col-xs-6 customer_information tr_color_forconsultation">
+                        <div data-id="get_update_data_source">
+                           331
+                          <div class="d-flex align-centr">
+                            <div class="update_data_table"
+                                  style="font-size: 13px;">Ванга ИП</div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-xs-6" style="padding-right: 0;"
+                       data-id="get_update_data_name_customers">
+                        <div class="d-flex align-centr"
+                        >
+                          <div class="update_data_table" style="color: #333b3f; text-align: right;padding-right: 15px;">
+                            Кира
+                          </div>
+                        </div>
+                        <div id="331" class="select5">
+                          <input
+                            type="hidden"
+                            name="item"
+                            value=""
+                            class="input_status_add"
+                          />
+                          <div class="btn selected5 contract_status">
+                            Договор
+                          </div>
+                          <div class="option-list status_castom"></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div                       
+                     class="card__colapse collapse col-md-12 row" id="targetClient2">
+                     <div class="col-xs-12 client__card_items"
+                          style="background-color: rgb(209, 221, 231);
+                          margin-top: 15px;
+                          ">
+                        <div class="client__card_head col-xs-6"
+                         >Телефон</div>
+                        <div
+                          class="client__info client__info_tel col-xs-6">
+                          <p >+7 (333) 355 3773</p>
+                          <p >+7 (555) 775 5885</p>
+                        </div>
+                     </div>  
+                     <div class="col-xs-12 client__card_items"
+                     
+                     >
+                      <div class="client__card_head col-xs-6"
+                      >Дата посещения/
+                          изменения/назначения</div>
+                      <div 
+                        class="client__info client__info_date col-xs-6">
+                        <p >02.02.1977 04:00</p>
+                        <p >20.07.2023 14:44</p>
+                        <p >20.08.2023 14:44</p>
+                      </div>
+                     </div>                  
+                     <div class="col-xs-12 client__card_items"
+                        style="background-color: rgb(209, 221, 231);"
+                     >
+                      <div class="client__card_head col-xs-6"
+                      >Консультант</div>
+                      <div 
+                        class="client__info client__info_date col-xs-6">
+                        <p >Игорь</p>                     
+                      </div>
+                     </div>                  
+                     <div class="col-xs-12 client__card_items"
+                     >
+                      <div class="client__card_head col-xs-6"
+                      >Приходы/Договора</div>
+                      <div 
+                        class="client__info client__info_date col-xs-6">
+                        <p >7/4</p>                     
+                      </div>
+                     </div>                  
+                     <div class="col-xs-12 client__card_items"
+                          style="background-color: rgb(209, 221, 231);"
+                     >
+                      <div class="client__card_button">
+                        <button data-toggle="modal" data-target="#dogovoraModal" class="btn btn-primary btn-block">
+                          Карточка клиента                      
+                        </button>
+                      </div>    
+                     </div>                  
+                    </div>
+                  </div>
+
+                  <div class="client__card row"
+                        data-toggle="collapse" 
+                        data-target="#targetClient3">
+                    <div class="col-md-12 row"  >
+                      <div
+                        data-id="330" 
+                        class="col-xs-6 customer_information tr_color_forconsultation">
+                        <div data-id="get_update_data_source">
+                           330
+                          <div class="d-flex align-centr">
+                            <div class="update_data_table"
+                                  style="font-size: 13px;">Нет источника</div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-xs-6" style="padding-right: 0;"
+                       data-id="get_update_data_name_customers">
+                        <div class="d-flex align-centr"
+                        >
+                          <div class="update_data_table" style="color: #333b3f; text-align: right;padding-right: 15px;">
+                            Виталий
+                          </div>
+                        </div>
+                        <div id="330" class="select5">
+                          <input
+                            type="hidden"
+                            name="item"
+                            value=""
+                            class="input_status_add"
+                          />
+                          <div class="btn selected5 hascome_status">
+                            Пришел
+                          </div>
+                          <div class="option-list status_castom"></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div                       
+                     class="card__colapse collapse col-md-12 row" id="targetClient3">
+                     <div class="col-xs-12 client__card_items"
+                          style="background-color: rgb(209, 221, 231);
+                          margin-top: 15px;
+                          ">
+                        <div class="client__card_head col-xs-6"
+                         >Телефон</div>
+                        <div
+                          class="client__info client__info_tel col-xs-6">
+                          <p >+7 (333) 333 3333</p>
+                          <p >+7 (555) 555 5555</p>
+                        </div>
+                     </div>  
+                     <div class="col-xs-12 client__card_items"
+                     
+                     >
+                      <div class="client__card_head col-xs-6"
+                      >Дата посещения/
+                          изменения/назначения</div>
+                      <div 
+                        class="client__info client__info_date col-xs-6">
+                        <p >01.01.1970 03:00</p>
+                        <p >20.05.2023 14:44</p>
+                        <p >20.05.2023 14:44</p>
+                      </div>
+                     </div>                  
+                     <div class="col-xs-12 client__card_items"
+                        style="background-color: rgb(209, 221, 231);"
+                     >
+                      <div class="client__card_head col-xs-6"
+                      >Консультант</div>
+                      <div 
+                        class="client__info client__info_date col-xs-6">
+                        <p >Миша</p>                     
+                      </div>
+                     </div>                  
+                     <div class="col-xs-12 client__card_items"
+                     >
+                      <div class="client__card_head col-xs-6"
+                      >Приходы/Договора</div>
+                      <div 
+                        class="client__info client__info_date col-xs-6">
+                        <p >7/1</p>                     
+                      </div>
+                     </div>                  
+                     <div class="col-xs-12 client__card_items"
+                          style="background-color: rgb(209, 221, 231);"
+                     >
+                      <div class="client__card_button">
+                        <button data-toggle="modal" data-target="#dogovoraModal" class="btn btn-primary btn-block">
+                          Карточка клиента                      
+                        </button>
+                      </div>    
+                     </div>                  
+                    </div>
+                  </div>
+
+                  <div class="client__card row"
+                        data-toggle="collapse" 
+                        data-target="#targetClient4">
+                    <div class="col-md-12 row"  >
+                      <div
+                        data-id="325" 
+                        class="col-xs-6 customer_information tr_color_forconsultation">
+                        <div data-id="get_update_data_source">
+                           325
+                          <div class="d-flex align-centr">
+                            <div class="update_data_table"
+                                  style="font-size: 13px;">Нет источника</div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-xs-6" style="padding-right: 0;"
+                       data-id="get_update_data_name_customers">
+                        <div class="d-flex align-centr"
+                        >
+                          <div class="update_data_table" style="color: #333b3f; text-align: right;padding-right: 15px;">
+                            Витя Фомин
+                          </div>
+                        </div>
+                        <div id="327" class="select5">
+                          <input
+                            type="hidden"
+                            name="item"
+                            value=""
+                            class="input_status_add"
+                          />
+                          <div class="btn selected5 rejection_status">
+                            Отказ
+                          </div>
+                          <div class="option-list status_castom"></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div                       
+                     class="card__colapse collapse col-md-12 row" id="targetClient4">
+                     <div class="col-xs-12 client__card_items"
+                          style="background-color: rgb(209, 221, 231);
+                          margin-top: 15px;
+                          ">
+                        <div class="client__card_head col-xs-6"
+                         >Телефон</div>
+                        <div
+                          class="client__info client__info_tel col-xs-6">
+                          <p >+7 (333) 333 3333</p>
+                          <p >+7 (555) 555 5555</p>
+                        </div>
+                     </div>  
+                     <div class="col-xs-12 client__card_items"
+                     
+                     >
+                      <div class="client__card_head col-xs-6"
+                      >Дата посещения/
+                          изменения/назначения</div>
+                      <div 
+                        class="client__info client__info_date col-xs-6">
+                        <p >01.01.1970 03:00</p>
+                        <p >20.05.2023 14:44</p>
+                        <p >20.05.2023 14:44</p>
+                      </div>
+                     </div>                  
+                     <div class="col-xs-12 client__card_items"
+                        style="background-color: rgb(209, 221, 231);"
+                     >
+                      <div class="client__card_head col-xs-6"
+                      >Консультант</div>
+                      <div 
+                        class="client__info client__info_date col-xs-6">
+                        <p >Ольга Фомина</p>                     
+                      </div>
+                     </div>                  
+                     <div class="col-xs-12 client__card_items"
+                     >
+                      <div class="client__card_head col-xs-6"
+                      >Приходы/Договора</div>
+                      <div 
+                        class="client__info client__info_date col-xs-6">
+                        <p >1/1</p>                     
+                      </div>
+                     </div>                  
+                     <div class="col-xs-12 client__card_items"
+                          style="background-color: rgb(209, 221, 231);"
+                     >
+                      <div class="client__card_button">
+                        <button data-toggle="modal" data-target="#dogovoraModal" class="btn btn-primary btn-block">
+                          Карточка клиента                      
+                        </button>
+                      </div>    
+                     </div>                  
+                    </div>
+                  </div>
+
+                  <div class="client__card row"
+                        data-toggle="collapse" 
+                        data-target="#targetClient5">
+                    <div class="col-md-12 row"  >
+                      <div
+                        data-id="324" 
+                        class="col-xs-6 customer_information tr_color_forconsultation">
+                        <div data-id="get_update_data_source">
+                           324
+                          <div class="d-flex align-centr">
+                            <div class="update_data_table"
+                                  style="font-size: 13px;">Нет источника</div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-xs-6" style="padding-right: 0;"
+                       data-id="get_update_data_name_customers">
+                        <div class="d-flex align-centr"
+                        >
+                          <div class="update_data_table" style="color: #333b3f; text-align: right;padding-right: 15px;">
+                            Катя Олеговна
+                          </div>
+                        </div>
+                        <div id="327" class="select5">
+                          <input
+                            type="hidden"
+                            name="item"
+                            value=""
+                            class="input_status_add"
+                          />
+                          <div class="btn selected5 forconsultation_status">
+                            На консультации
+                          </div>
+                          <div class="option-list status_castom"></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div                       
+                     class="card__colapse collapse col-md-12 row" id="targetClient5">
+                     <div class="col-xs-12 client__card_items"
+                          style="background-color: rgb(209, 221, 231);
+                          margin-top: 15px;
+                          ">
+                        <div class="client__card_head col-xs-6"
+                         >Телефон</div>
+                        <div
+                          class="client__info client__info_tel col-xs-6">
+                          <p >+7 (333) 333 3333</p>
+                          <p >+7 (555) 555 5555</p>
+                        </div>
+                     </div>  
+                     <div class="col-xs-12 client__card_items"
+                     
+                     >
+                      <div class="client__card_head col-xs-6"
+                      >Дата посещения/
+                          изменения/назначения</div>
+                      <div 
+                        class="client__info client__info_date col-xs-6">
+                        <p >01.01.1970 03:00</p>
+                        <p >20.05.2023 14:44</p>
+                        <p >20.05.2023 14:44</p>
+                      </div>
+                     </div>                  
+                     <div class="col-xs-12 client__card_items"
+                        style="background-color: rgb(209, 221, 231);"
+                     >
+                      <div class="client__card_head col-xs-6"
+                      >Консультант</div>
+                      <div 
+                        class="client__info client__info_date col-xs-6">
+                        <p >Марина К.</p>                     
+                      </div>
+                     </div>                  
+                     <div class="col-xs-12 client__card_items"
+                     >
+                      <div class="client__card_head col-xs-6"
+                      >Приходы/Договора</div>
+                      <div 
+                        class="client__info client__info_date col-xs-6">
+                        <p >6/1</p>                     
+                      </div>
+                     </div>                  
+                     <div class="col-xs-12 client__card_items"
+                          style="background-color: rgb(209, 221, 231);"
+                     >
+                      <div class="client__card_button">
+                        <button data-toggle="modal" data-target="#dogovoraModal" class="btn btn-primary btn-block">
+                          Карточка клиента                      
+                        </button>
+                      </div>    
+                     </div>                  
+                    </div>
+                  </div>
+
+                  <div id="idfoot">
+                    <tr>
+                      <!--td colspan="3">
+                      <div class="page"><form class="form-inline">
+                                 <div class="form-group">
+                                <label class="sr-only" for="inputEmail">№ страницы</label>
+                                <input type="text" name ="page" placeholder="№ страницы" class="form-control" style="max-width: 110px;">
+                                    </div> 
+                                 <button type="submit"  class="btn btn-success waves-effect">Перейти сразу</button>					
+                              </form>	</div>				
+                                                                             </td-->
+                      <td colspan="5">
+                        <div class="pagination text-right">
+                          <nav>
+                            <ul class="pagination">
+                              <li class="active">
+                                <a
+                                  href="/klientyi.html?mnc=PupkinVasiliy&amp;page=1"
+                                  disabled=""
+                                  >1</a
+                                >
+                              </li>
+                              <li>
+                                <a href="/klientyi.html?mnc=PupkinVasiliy&amp;page=2"
+                                  >2</a
+                                >
+                              </li>
+                              <li>
+                                <a href="/klientyi.html?mnc=PupkinVasiliy&amp;page=3"
+                                  >3</a
+                                >
+                              </li>
+                              <li>
+                                <a href="/klientyi.html?mnc=PupkinVasiliy&amp;page=4"
+                                  >4</a
+                                >
+                              </li>
+                              <li>
+                                <a href="/klientyi.html?mnc=PupkinVasiliy&amp;page=5"
+                                  >5</a
+                                >
+                              </li>
+                              <li>
+                                <a
+                                  href="/klientyi.html?mnc=PupkinVasiliy&amp;page=2"
+                                  disabled=""
+                                  ><i class="fa fa-angle-right"></i
+                                ></a>
+                              </li>
+                              <li>
+                                <a
+                                  href="/klientyi.html?mnc=PupkinVasiliy&amp;page=5"
+                                  disabled=""
+                                  ><i class="fa fa-angle-double-right"></i
+                                ></a>
+                              </li>
+                            </ul>
+                          </nav>
+                        </div>
+                      </td>
+                    </tr>
+                  </div>
+            </div>
+          </div>
+              
                 <div
                   class="modal fade"
                   id="dogovoraModal"
@@ -1659,7 +2185,7 @@
                   role="dialog"
                   aria-labelledby="myLargeModalLabel"
                 >
-                  <div class="modal-dialog" role="document">
+                  <div class="modal-dialog modal-dialog-centered" role="document">
                     <div class="modal-content">
                       <div class="modal-header">
                         <button
@@ -1668,7 +2194,8 @@
                           data-dismiss="modal"
                           aria-label="Close"
                         >
-                          <span aria-hidden="true">×</span>
+                          <span style="font-size: 30px;" 
+                              aria-hidden="true">×</span>
                         </button>
                         <ul class="nav nav-tabs">
                           <li class="active">
@@ -1711,6 +2238,7 @@
                               <textarea
                                 class="form-control textarea_style question"
                                 placeholder="Введите вопрос"
+                                style="resize:none;"                           
                               ></textarea>
                               <button
                                 type="button"
@@ -1730,68 +2258,6 @@
                 </div>
                 <!-- /.modal -->
               </div>
-            </div>
-            <div id="idfoot">
-              <tr>
-                <!--td colspan="3">
-                <div class="page"><form class="form-inline">
-                           <div class="form-group">
-                          <label class="sr-only" for="inputEmail">№ страницы</label>
-                          <input type="text" name ="page" placeholder="№ страницы" class="form-control" style="max-width: 110px;">
-                              </div> 
-                           <button type="submit"  class="btn btn-success waves-effect">Перейти сразу</button>					
-                        </form>	</div>				
-                                                                       </td-->
-                <td colspan="5">
-                  <div class="pagination text-right">
-                    <nav>
-                      <ul class="pagination">
-                        <li class="active">
-                          <a
-                            href="/klientyi.html?mnc=PupkinVasiliy&amp;page=1"
-                            disabled=""
-                            >1</a
-                          >
-                        </li>
-                        <li>
-                          <a href="/klientyi.html?mnc=PupkinVasiliy&amp;page=2"
-                            >2</a
-                          >
-                        </li>
-                        <li>
-                          <a href="/klientyi.html?mnc=PupkinVasiliy&amp;page=3"
-                            >3</a
-                          >
-                        </li>
-                        <li>
-                          <a href="/klientyi.html?mnc=PupkinVasiliy&amp;page=4"
-                            >4</a
-                          >
-                        </li>
-                        <li>
-                          <a href="/klientyi.html?mnc=PupkinVasiliy&amp;page=5"
-                            >5</a
-                          >
-                        </li>
-                        <li>
-                          <a
-                            href="/klientyi.html?mnc=PupkinVasiliy&amp;page=2"
-                            disabled=""
-                            ><i class="fa fa-angle-right"></i
-                          ></a>
-                        </li>
-                        <li>
-                          <a
-                            href="/klientyi.html?mnc=PupkinVasiliy&amp;page=5"
-                            disabled=""
-                            ><i class="fa fa-angle-double-right"></i
-                          ></a>
-                        </li>
-                      </ul>
-                    </nav>
-                  </div>
-                </td>
-              </tr>
             </div>
           </section>
         </div>
